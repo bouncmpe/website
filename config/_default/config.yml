@@ -1,0 +1,40 @@
+baseURL: ""
+copyright: "Copyright © {year} BOUNCMPE-WEB"
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+params:
+  email: contact@cmpe.boun.edu.tr
+  favicon: "images/logo.png"
+  logo: "/images/logo.png"
+  logo_height: 80px
+  logo_width: 80px
+  cropping: "640x320 q90 smart"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  page:
+    - HTML
+    - RSS
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      autoHeadingID: true
+      autoHeadingIDType: github
+      attribute:
+        block: true
+        title: true
+    renderer:
+      unsafe: true

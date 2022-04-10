@@ -1,0 +1,265 @@
+backend:
+  name: github
+  repo: bouncmpe/website-test
+  branch: main
+
+local_backend: true
+logo_url: /images/logo.png
+
+media_folder: assets/images/uploads
+public_folder: /images/uploads
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+i18n:
+  structure: multiple_files
+  locales: [en, tr]
+  default_locale: en
+
+collections:
+  - name: "news"
+    label: "Latest News"
+    folder: "content/news"
+    slug: "{{date}}-news-{{title | lower}}"
+    path: "{{year}}/{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    filter: { field: "type", value: "news" }
+    fields:
+      - {
+          label: "Type",
+          name: "type",
+          widget: "hidden",
+          default: "news",
+          i18n: "duplicate",
+        }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "DD MMMM YYYY",
+          time_format: false,
+          format: "YYYY-MM-DD",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          allow_multiple: false,
+          i18n: "duplicate",
+        }
+      - {
+          label: "Description",
+          name: "body",
+          widget: "markdown",
+          default: "",
+          i18n: true,
+        }
+
+  - name: "phd-defense"
+    label: "PhD Thesis Defense"
+    folder: "content/events"
+    slug: "{{expiryDate}}-phd-defense-{{speaker | lower}}"
+    path: "{{year}}/{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    filter: { field: "type", value: "phd-defense" }
+    fields:
+      - {
+          label: "Type",
+          name: "type",
+          widget: "hidden",
+          default: "phd-defense",
+          i18n: "duplicate",
+        }
+      - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Speaker",
+          name: "speaker",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Event Date",
+          name: "expiryDate",
+          widget: "date",
+          date_format: "DD MMMM YYYY",
+          format: "YYYY-MM-DD",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Start Time",
+          name: "startTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: HH:mm,
+          format: "HH:mm",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Duration",
+          name: "duration",
+          widget: "select",
+          options: ["1 Hour", "2 Hours", "3 Hours", "4 Hours", "All Day"],
+          default: "1 Hour",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Location",
+          name: "location",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Abstract",
+          name: "body",
+          widget: "markdown",
+          default: "",
+          i18n: true,
+        }
+
+  - name: "ms-defense"
+    label: "MS Thesis Defense"
+    folder: "content/events"
+    path: "{{year}}/{{slug}}/index"
+    slug: "{{expiryDate}}-ms-defense-{{speaker | lower}}"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    filter: { field: "type", value: "ms-defense" }
+    fields:
+      - {
+          label: "Type",
+          name: "type",
+          widget: "hidden",
+          default: "ms-defense",
+          i18n: "duplicate",
+        }
+      - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Speaker",
+          name: "speaker",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Event Date",
+          name: "expiryDate",
+          widget: "datetime",
+          date_format: "DD MMMM YYYY",
+          time_format: false,
+          format: "YYYY-MM-DD",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Start Time",
+          name: "startTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: HH:mm,
+          format: "HH:mm",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Duration",
+          name: "duration",
+          widget: "select",
+          options: ["1 Hour", "2 Hours", "3 Hours", "4 Hours", "All Day"],
+          default: "1 Hour",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Location",
+          name: "location",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Abstract",
+          name: "body",
+          widget: "markdown",
+          default: "",
+          i18n: true,
+        }
+
+  - name: "seminar"
+    label: "Seminar"
+    folder: "content/events"
+    slug: "{{expiryDate}}-seminar-{{speaker | lower}}"
+    path: "{{year}}/{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    filter: { field: "type", value: "seminar" }
+    fields:
+      - {
+          label: "Type",
+          name: "type",
+          widget: "hidden",
+          default: "seminar",
+          i18n: "duplicate",
+        }
+      - { label: "Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Speaker",
+          name: "speaker",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Event Date",
+          name: "expiryDate",
+          widget: "datetime",
+          date_format: "DD MMMM YYYY",
+          time_format: false,
+          format: "YYYY-MM-DD",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Start Time",
+          name: "startTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: HH:mm,
+          format: "HH:mm",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Duration",
+          name: "duration",
+          widget: "select",
+          options: ["1 Hour", "2 Hours", "3 Hours", "4 Hours", "All Day"],
+          default: "1 Hour",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Location",
+          name: "location",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Description",
+          name: "body",
+          widget: "markdown",
+          default: "",
+          i18n: true,
+        }

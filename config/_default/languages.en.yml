@@ -1,0 +1,36 @@
+languageName: English
+title: Department of Computer Engineering | Bogazici University
+
+weight: 2
+params:
+  logo_text_main: Computer Engineering
+  logo_text_top: "Boğaziçi University, Department of"
+  powered_by_text: >-
+    Powered by [Hugo](https://gohugo.io) and [Bootstrap](https://getbootstrap.com)
+
+menu:
+  top:
+    - identifier: for_students
+      name: For Students
+      url: resources/students
+      weight: 100
+    - identifier: for_staff
+      name: For Staff
+      url: resources/staff
+      weight: 200
+    - identifier: for_industry
+      name: For Industry
+      url: resources/industry
+      weight: 300
+    - identifier: news
+      name: News
+      url: news
+      weight: 400
+    - identifier: events
+      name: Events
+      url: events
+      weight: 500
+    - identifier: donate
+      name: Make a Donation
+      url: donate
+      weight: 1000

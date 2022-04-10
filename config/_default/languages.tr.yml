@@ -1,0 +1,37 @@
+languageName: Türkçe
+languageCode: tr
+title: Bilgisayar Mühendisliği Bölümü | Boğaziçi Üniversitesi
+weight: 1
+params:
+  about: " Translation "
+  logo_text_main: Bilgisayar Mühendisliği
+  logo_text_top: Boğaziçi Üniversitesi
+  powered_by_text: >-
+    Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com) ile tasarlandı
+
+menu:
+  top:
+    - identifier: for_students
+      name: Öğrenciler için
+      url: resources/students
+      weight: 100
+    - identifier: for_staff
+      name: Personel için
+      url: resources/staff
+      weight: 200
+    - identifier: for_industry
+      name: Şirketler için
+      url: resources/industry
+      weight: 300
+    - identifier: news
+      name: Haberler
+      url: news
+      weight: 400
+    - identifier: events
+      name: Etkinlikler
+      url: events
+      weight: 500
+    - identifier: donate
+      name: Bağış Yapın
+      url: donate
+      weight: 1000

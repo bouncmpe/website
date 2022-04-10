@@ -1,0 +1,5 @@
+imports:
+  - path: /home/dogan/repos/bouncmpe/hugo-theme-department
+    disable: false
+  - path: github.com/bouncmpe/hugo-theme-department
+    disable: false
