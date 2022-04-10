@@ -1,0 +1,8 @@
+[build]
+command = "hugo --gc --minify"
+publish = "public"
+
+[context.production.environment]
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+HUGO_VERSION = "0.96.0"
