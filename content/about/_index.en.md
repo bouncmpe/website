@@ -1,17 +1,19 @@
 ---
 title: About
 menu:
-    main:
-        weight: 1
+  main:
+    identifier: about
+    weight: 1
 ---
 
 ## Information
 
-Bogazici University, founded in 1863, is the top ranking public university in Turkey according to the central university exam results. The Computer Engineering Department (BU-CmpE) ranks as the top CmpE department in Turkey according to the Higher Education Council's number of publications per faculty list, with its 21 full-time faculty members, 9 research labs, more than 250 graduate students and 650 undergraduate students. The department is internationally recognized for its education and research activities (QS World University Ranking for BU & QS University Rankings: EECA 2016 in comparison). The Computer Engineering Program is accredited by ABET.  
+Bogazici University, founded in 1863, is the top ranking public university in Turkey according to the central university exam results. The Computer Engineering Department (BU-CmpE) ranks as the top CmpE department in Turkey according to the Higher Education Council's number of publications per faculty list, with its 21 full-time faculty members, 9 research labs, more than 250 graduate students and 650 undergraduate students. The department is internationally recognized for its education and research activities (QS World University Ranking for BU & QS University Rankings: EECA 2016 in comparison). The Computer Engineering Program is accredited by ABET.
 
 The mission statement of Bogazici University School of Engineering is as follows:
 
 > The mission of the Bogazici University School of Engineering is to educate individuals for careers of leadership and innovation in industry, government and educational institutions; to expand the engineering knowledge base through original research; to contribute through professional services towards more prosperous and sustainable society.
+
 {.blockquote}
 
 In light of the above mission statement, Department of Computer Engineering has established the following mission for itself:
@@ -19,6 +21,7 @@ In light of the above mission statement, Department of Computer Engineering has 
 Department of Computer Engineering Mission Statement
 
 > The mission of the Computer Engineering program is to graduate economically, socially and ethically conscious engineers that are equipped with the necessary analytical, mathematical, decision-making, computing, communication, teamwork and leadership skills that they can use to creatively design, implement, manage, maintain and improve a wide spectrum of computer hardware, software and information systems in the modern society.
+
 {.blockquote}
 
 Additionally, the program educational objectives of our department has been established as follows:

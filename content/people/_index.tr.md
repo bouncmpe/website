@@ -1,7 +1,7 @@
 ---
 title: Kişiler
 menu:
-    main:
-        identifier: people
-        weight: 2
+  main:
+    identifier: people
+    weight: 2
 ---

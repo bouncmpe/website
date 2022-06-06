@@ -1,7 +1,7 @@
 ---
 title: İdari Personel
 menu:
-    main:
-        parent: people
-        weight: 3
+  main:
+    parent: people
+    weight: 3
 ---

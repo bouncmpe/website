@@ -1,7 +1,7 @@
 ---
 title: People
 menu:
-    main:
-        identifier: people
-        weight: 2
+  main:
+    identifier: people
+    weight: 2
 ---

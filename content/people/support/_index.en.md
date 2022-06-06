@@ -1,7 +1,7 @@
 ---
 title: Support Staff
 menu:
-    main:
-        parent: people
-        weight: 3
+  main:
+    parent: people
+    weight: 3
 ---

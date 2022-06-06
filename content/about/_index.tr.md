@@ -1,6 +1,6 @@
 ---
 title: Hakkında
 menu:
-    main:
-        weight: 1
+  main:
+    weight: 1
 ---
