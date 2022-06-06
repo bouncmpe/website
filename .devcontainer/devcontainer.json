@@ -1,0 +1,8 @@
+{
+    "name": "Hugo",
+    "dockerFile": "../Dockerfile",
+	"remoteUser": "bouncmpe",
+	"extensions": [
+		"esbenp.prettier-vscode"
+	]
+}
