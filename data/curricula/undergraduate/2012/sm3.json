@@ -1,0 +1,39 @@
+{
+  "id": "bouncmpe-uc2012-sm3",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Third Semester"
+    },
+    "tr": {
+      "title": "Üçüncü Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "math201",
+      "type": "course"
+    },
+    {
+      "id": "phys202",
+      "type": "course"
+    },
+    {
+      "id": "ee210",
+      "type": "course"
+    },
+    {
+      "id": "cmpe220",
+      "type": "course"
+    },
+    {
+      "id": "cmpe250",
+      "type": "course"
+    },
+    {
+      "id": "tk221",
+      "type": "course"
+    }
+  ],
+  "total-credit": "20"
+}

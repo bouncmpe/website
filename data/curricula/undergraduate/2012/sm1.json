@@ -1,0 +1,35 @@
+{
+  "id": "bouncmpe-uc2012-sm1",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "First Semester"
+    },
+    "tr": {
+      "title": "Birinci Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "math101",
+      "type": "course"
+    },
+    {
+      "id": "phys121",
+      "type": "course"
+    },
+    {
+      "id": "chem105",
+      "type": "course"
+    },
+    {
+      "id": "cmpe150",
+      "type": "course"
+    },
+    {
+      "id": "ec101",
+      "type": "course"
+    }
+  ],
+  "total-credit": "18"
+}

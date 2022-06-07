@@ -1,0 +1,35 @@
+{
+  "id": "bouncmpe-uc2012-sm7",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Seventh Semester"
+    },
+    "tr": {
+      "title": "Yedinci Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "cmpe443",
+      "type": "course"
+    },
+    {
+      "id": "cmpe451",
+      "type": "course"
+    },    
+    {
+      "id": "generic-cc",
+      "type": "course"
+    },
+    {
+      "id": "generic-cc",
+      "type": "course"
+    },
+    {
+      "id": "generic-cc",
+      "type": "course"
+    }
+  ],
+  "total-credit": "15-18"
+}

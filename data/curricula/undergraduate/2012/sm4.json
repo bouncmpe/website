@@ -1,0 +1,39 @@
+{
+  "id": "bouncmpe-uc2012-sm4",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Fourth Semester"
+    },
+    "tr": {
+      "title": "Dördüncü Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "math202",
+      "type": "course"
+    },
+    {
+      "id": "ee212",
+      "type": "course"
+    },    
+    {
+      "id": "cmpe230",
+      "type": "course"
+    },
+    {
+      "id": "cmpe240",
+      "type": "course"
+    },
+    {
+      "id": "cmpe260",
+      "type": "course"
+    },
+    {
+      "id": "tk222",
+      "type": "course"
+    }
+  ],
+  "total-credit": "20"
+}

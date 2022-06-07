@@ -1,0 +1,35 @@
+{
+  "id": "bouncmpe-uc2012-sm8",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Eighth Semester"
+    },
+    "tr": {
+      "title": "Sekizinci Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "cmpe492",
+      "type": "course"
+    },
+    {
+      "id": "generic-hss",
+      "type": "course"
+    },    
+    {
+      "id": "generic-cc",
+      "type": "course"
+    },
+    {
+      "id": "generic-cc",
+      "type": "course"
+    },
+    {
+      "id": "generic-cc",
+      "type": "course"
+    }
+  ],
+  "total-credit": "16-19"
+}

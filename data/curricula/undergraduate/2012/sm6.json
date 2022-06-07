@@ -1,0 +1,39 @@
+{
+  "id": "bouncmpe-uc2012-sm6",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Sixth Semester"
+    },
+    "tr": {
+      "title": "Altıncı Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "cmpe321",
+      "type": "course"
+    },
+    {
+      "id": "cmpe350",
+      "type": "course"
+    },    
+    {
+      "id": "cmpe352",
+      "type": "course"
+    },
+    {
+      "id": "cmpe362",
+      "type": "course"
+    },
+    {
+      "id": "ie312",
+      "type": "course"
+    },
+    {
+      "id": "htr312",
+      "type": "course"
+    }
+  ],
+  "total-credit": "18"
+}

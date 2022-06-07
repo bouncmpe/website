@@ -1,0 +1,39 @@
+{
+  "id": "bouncmpe-uc2012-sm5",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Fifth Semester"
+    },
+    "tr": {
+      "title": "Beşinci Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "cmpe300",
+      "type": "course"
+    },
+    {
+      "id": "cmpe322",
+      "type": "course"
+    },    
+    {
+      "id": "cmpe343",
+      "type": "course"
+    },
+    {
+      "id": "cmpe344",
+      "type": "course"
+    },
+    {
+      "id": "ie310",
+      "type": "course"
+    },
+    {
+      "id": "htr311",
+      "type": "course"
+    }
+  ],
+  "total-credit": "20"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "bouncmpe-uc2012-sm2",
+  "type": "semester",
+  "languages": {
+    "en": {
+      "title": "Second Semester"
+    },
+    "tr": {
+      "title": "İkinci Dönem"
+    }
+  },
+  "courses": [
+    {
+      "id": "math102",
+      "type": "course"
+    },
+    {
+      "id": "phys201",
+      "type": "course"
+    },
+    {
+      "id": "generic-hss",
+      "type": "course"
+    },
+    {
+      "id": "cmpe160",
+      "type": "course"
+    },
+    {
+      "id": "ec102",
+      "type": "course"
+    }
+  ],
+  "total-credit": "18-19"
+}

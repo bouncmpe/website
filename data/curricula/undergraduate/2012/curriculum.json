@@ -1,0 +1,38 @@
+{
+  "id": "bouncmpe-uc-2012",
+  "type": "curriculum",
+  "semesters": [
+    {
+      "id": "bouncmpe-uc-2012-sm-1",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-2",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-3",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-4",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-5",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-6",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-7",
+      "type": "semester"
+    },
+    {
+      "id": "bouncmpe-uc-2012-sm-8",
+      "type": "semester"
+    }
+  ]
+}
