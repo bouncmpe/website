@@ -1,0 +1,15 @@
+{
+  "id": "ec102",
+  "type": "course",
+  "credits": "3",
+  "ects": "6",
+  "hours": "3+2+0",
+  "languages": {
+    "en": {
+      "title": "Principles of Macroeconomics"
+    },
+    "tr": {
+      "title": "Makroekonominin İlkeleri"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cmpe220",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Discrete Computational Structures"
+    },
+    "tr": {
+      "title": "Kesikli Hesaplama Yapıları"
+    }
+  }
+}

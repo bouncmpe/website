@@ -1,0 +1,16 @@
+{
+  "id": "math102",
+  "type": "course",
+  "credits": "4",
+  "ects": "6",
+  "hours": "4+2+0",
+  "languages": {
+    "en": {
+      "title": "Calculus II"
+    },
+    "tr": {
+      "title": "Analiz II"
+    }
+  },
+  "prerequisites": ["math101"]
+}

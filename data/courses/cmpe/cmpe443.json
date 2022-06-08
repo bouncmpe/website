@@ -1,0 +1,16 @@
+{
+  "id": "cmpe443",
+  "type": "course",
+  "credits": "4",
+  "ects": "6",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Principles of Embedded Systems Design"
+    },
+    "tr": {
+      "title": "Gömülü Sistem Tasarım Temelleri"
+    }
+  },
+  "prerequisites": ["cmpe240"]
+}

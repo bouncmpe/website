@@ -1,0 +1,15 @@
+{
+  "id": "cmpe140",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "2+1+2",
+  "languages": {
+    "en": {
+      "title": "Introduction to Computing for Economics and Management"
+    },
+    "tr": {
+      "title": "Ekonomi ve İşletme için Bilgi İşleme Giriş"
+    }
+  }
+}

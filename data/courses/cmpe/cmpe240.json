@@ -1,0 +1,15 @@
+{
+  "id": "cmpe240",
+  "type": "course",
+  "credits": "4",
+  "ects": "6",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Digital Systems"
+    },
+    "tr": {
+      "title": "Sayısal Sistemler"
+    }
+  }
+}

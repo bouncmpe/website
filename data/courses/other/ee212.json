@@ -1,0 +1,16 @@
+{
+  "id": "ee212",
+  "type": "course",
+  "credits": "3",
+  "ects": "4",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Introduction to Electronic Engineering"
+    },
+    "tr": {
+      "title": "Elektronik Mühendisliğine Giriş"
+    }
+  },
+  "prerequisites": ["ee210"]
+}

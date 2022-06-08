@@ -1,0 +1,15 @@
+{
+  "id": "phys121",
+  "type": "course",
+  "credits": "4",
+  "ects": "8",
+  "hours": "3+1+2",
+  "languages": {
+    "en": {
+      "title": "Introductory Mechanics and Thermodynamics"
+    },
+    "tr": {
+      "title": "Mekanik ve Termodinamiğe Giriş"
+    }
+  }
+}

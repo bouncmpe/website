@@ -1,0 +1,16 @@
+{
+  "id": "cmpe210",
+  "type": "course",
+  "credits": "4",
+  "ects": "5",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Fundamentals of Object Oriented Programming"
+    },
+    "tr": {
+      "title": "Nesneye Yönelik Programlamanın Temelleri"
+    }
+  },
+  "prerequisites": ["cmpe150"]
+}

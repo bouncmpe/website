@@ -1,0 +1,16 @@
+{
+  "id": "cmpe350",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Formal Languages and Automata Theory"
+    },
+    "tr": {
+      "title": "Biçimsel Diller ve Makineler Kuramı"
+    }
+  },
+  "prerequisites": ["cmpe220"]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cmpe491",
+  "type": "course",
+  "credits": "3",
+  "ects": "6",
+  "hours": "0+0+6",
+  "languages": {
+    "en": {
+      "title": "Special Project in Computer Engineering"
+    },
+    "tr": {
+      "title": "Bilgisayar Muhendisliğinde Özel Proje"
+    }
+  },
+  "prerequisites": ["cmpe-senior", "instructor-consent"]
+}

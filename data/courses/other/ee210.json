@@ -1,0 +1,15 @@
+{
+  "id": "ee210",
+  "type": "course",
+  "credits": "3",
+  "ects": "4",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Introduction to Electrical Engineering"
+    },
+    "tr": {
+      "title": "Elektrik Mühendisliğine Giriş"
+    }
+  }
+}

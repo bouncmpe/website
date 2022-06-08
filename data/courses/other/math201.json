@@ -1,0 +1,15 @@
+{
+  "id": "math201",
+  "type": "course",
+  "credits": "4",
+  "ects": "5",
+  "hours": "4+2+0",
+  "languages": {
+    "en": {
+      "title": "Matrix Theory"
+    },
+    "tr": {
+      "title": "Matris Kuramı"
+    }
+  }
+}

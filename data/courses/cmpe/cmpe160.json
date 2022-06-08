@@ -1,0 +1,16 @@
+{
+  "id": "cmpe160",
+  "type": "course",
+  "credits": "4",
+  "ects": "8",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Introduction to Object Oriented Programming"
+    },
+    "tr": {
+      "title": "Nesne Tabanlı Programlamaya Giriş"
+    }
+  },
+  "prerequisites": ["cmpe150"]
+}

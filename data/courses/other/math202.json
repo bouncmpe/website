@@ -1,0 +1,16 @@
+{
+  "id": "math202",
+  "type": "course",
+  "credits": "4",
+  "ects": "7",
+  "hours": "4+2+0",
+  "languages": {
+    "en": {
+      "title": ""
+    },
+    "tr": {
+      "title": ""
+    }
+  },
+  "prerequisites": ["math101", "math201"]
+}

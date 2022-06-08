@@ -1,0 +1,15 @@
+{
+  "id": "ie306",
+  "type": "course",
+  "credits": "3",
+  "ects": "7",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Systems Simulation"
+    },
+    "tr": {
+      "title": "Sistem Benzetimi"
+    }
+  }
+}

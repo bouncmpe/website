@@ -1,0 +1,15 @@
+{
+  "id": "ie310",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Operations Research"
+    },
+    "tr": {
+      "title": "Yöneylem Araştırması"
+    }
+  }
+}

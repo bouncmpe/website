@@ -1,0 +1,16 @@
+{
+  "id": "cmpe491",
+  "type": "course",
+  "credits": "4",
+  "ects": "8",
+  "hours": "0+0+8",
+  "languages": {
+    "en": {
+      "title": "Project"
+    },
+    "tr": {
+      "title": "Proje"
+    }
+  },
+  "prerequisites": ["cmpe-senior"]
+}

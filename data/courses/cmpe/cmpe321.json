@@ -1,0 +1,16 @@
+{
+  "id": "cmpe321",
+  "type": "course",
+  "credits": "4",
+  "ects": "6",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Introduction to Database Systems"
+    },
+    "tr": {
+      "title": "Veri Tabanı Sistemlerine Giriş"
+    }
+  },
+  "prerequisites": ["cmpe250"]
+}

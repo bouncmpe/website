@@ -1,0 +1,16 @@
+{
+  "id": "cmpe150",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Principles of Programming Languages"
+    },
+    "tr": {
+      "title": "Programlama Dillerinin Prensipleri"
+    }
+  },
+  "prerequisites": ["cmpe250"]
+}

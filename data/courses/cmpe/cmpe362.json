@@ -1,0 +1,16 @@
+{
+  "id": "cmpe362",
+  "type": "course",
+  "credits": "3",
+  "ects": "6",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Introduction to Signal Processing for Computer Engineers"
+    },
+    "tr": {
+      "title": "Bilgisayar Mühendisleri için Sinyal İşlemeye Giriş"
+    }
+  },
+  "prerequisites": ["math202"]
+}

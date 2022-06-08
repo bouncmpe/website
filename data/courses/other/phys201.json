@@ -1,0 +1,16 @@
+{
+  "id": "phys201",
+  "type": "course",
+  "credits": "4",
+  "ects": "6",
+  "hours": "3+1+2",
+  "languages": {
+    "en": {
+      "title": "Physics III"
+    },
+    "tr": {
+      "title": "Fizik III"
+    }
+  },
+  "prerequisites": ["phys121"]
+}

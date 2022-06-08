@@ -1,0 +1,15 @@
+{
+  "id": "tk222",
+  "type": "course",
+  "credits": "2",
+  "ects": "3",
+  "hours": "2+0+0",
+  "languages": {
+    "en": {
+      "title": "Turkish for Native Speakers II"
+    },
+    "tr": {
+      "title": "Türkçe II"
+    }
+  }
+}

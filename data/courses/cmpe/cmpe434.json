@@ -1,0 +1,16 @@
+{
+  "id": "cmpe434",
+  "type": "course",
+  "credits": "3",
+  "ects": "6",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Introduction to Robotics"
+    },
+    "tr": {
+      "title": "Robotbilime Giriş"
+    }
+  },
+  "prerequisites": ["math202"]
+}

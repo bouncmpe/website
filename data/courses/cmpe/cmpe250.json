@@ -1,0 +1,16 @@
+{
+  "id": "cmpe250",
+  "type": "course",
+  "credits": "4",
+  "ects": "6",
+  "hours": "3+0+2",
+  "languages": {
+    "en": {
+      "title": "Data Structures and Algorithms"
+    },
+    "tr": {
+      "title": "Veri Yapıları ve Yordamlar"
+    }
+  },
+  "prerequisites": ["cmpe160"]
+}

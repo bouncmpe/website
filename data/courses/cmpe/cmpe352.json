@@ -1,0 +1,15 @@
+{
+  "id": "cmpe352",
+  "type": "course",
+  "credits": "2",
+  "ects": "4",
+  "hours": "2+1+0",
+  "languages": {
+    "en": {
+      "title": "Fundamentals of Software Engineering"
+    },
+    "tr": {
+      "title": "Yazılım Mühendisliği Temelleri"
+    }
+  }
+}

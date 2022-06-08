@@ -1,0 +1,16 @@
+{
+  "id": "cmpe300",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "3+0+0",
+  "languages": {
+    "en": {
+      "title": "Analysis of Algorithms"
+    },
+    "tr": {
+      "title": "Algoritma Analizi"
+    }
+  },
+  "prerequisites": ["cmpe250"]
+}

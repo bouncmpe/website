@@ -1,0 +1,15 @@
+{
+  "id": "cmpe150",
+  "type": "course",
+  "credits": "3",
+  "ects": "5",
+  "hours": "1+0+4",
+  "languages": {
+    "en": {
+      "title": "Introducution to Computing"
+    },
+    "tr": {
+      "title": "Bilgi İşleme Giriş"
+    }
+  }
+}
