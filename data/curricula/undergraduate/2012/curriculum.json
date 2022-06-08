@@ -1,38 +1,40 @@
 {
-  "id": "bouncmpe-uc-2012",
+  "id": "bouncmpe-uc2012",
   "type": "curriculum",
   "semesters": [
     {
-      "id": "bouncmpe-uc-2012-sm-1",
+      "id": "bouncmpe-uc2012-sm1",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-2",
+      "id": "bouncmpe-uc2012-sm2",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-3",
+      "id": "bouncmpe-uc2012-sm3",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-4",
+      "id": "bouncmpe-uc2012-sm4",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-5",
+      "id": "bouncmpe-uc2012-sm5",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-6",
+      "id": "bouncmpe-uc2012-sm6",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-7",
+      "id": "bouncmpe-uc2012-sm7",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc-2012-sm-8",
+      "id": "bouncmpe-uc2012-sm8",
       "type": "semester"
     }
-  ]
+  ],
+  "credits": "",
+  "ects": ""
 }

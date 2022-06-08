@@ -35,5 +35,6 @@
       "type": "course"
     }
   ],
-  "total-credit": "20"
+  "credits": "20",
+  "ects": ""
 }

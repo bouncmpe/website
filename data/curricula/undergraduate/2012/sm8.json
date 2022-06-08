@@ -17,7 +17,7 @@
     {
       "id": "generic-hss",
       "type": "course"
-    },    
+    },
     {
       "id": "generic-cc",
       "type": "course"
@@ -31,5 +31,6 @@
       "type": "course"
     }
   ],
-  "total-credit": "16-19"
+  "credits": "16-19",
+  "ects": ""
 }

@@ -17,7 +17,7 @@
     {
       "id": "cmpe322",
       "type": "course"
-    },    
+    },
     {
       "id": "cmpe343",
       "type": "course"
@@ -35,5 +35,6 @@
       "type": "course"
     }
   ],
-  "total-credit": "20"
+  "credits": "20",
+  "ects": ""
 }
