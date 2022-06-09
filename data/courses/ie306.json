@@ -11,5 +11,6 @@
     "tr": {
       "title": "Sistem Benzetimi"
     }
-  }
+  },
+  "prerequisites": ["cmpe343"]
 }

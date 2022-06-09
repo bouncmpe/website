@@ -1,36 +1,40 @@
 {
-  "id": "bouncmpe-uc2012-sm8",
+  "id": "bouncmpe-uc2015-sm4",
   "type": "semester",
   "languages": {
     "en": {
-      "title": "Eighth Semester"
+      "title": "Fourth Semester"
     },
     "tr": {
-      "title": "Sekizinci Dönem"
+      "title": "Dördüncü Dönem"
     }
   },
   "courses": [
     {
-      "id": "cmpe492",
+      "id": "math202",
       "type": "course"
     },
     {
-      "id": "generic-hss",
+      "id": "ee212",
       "type": "course"
     },
     {
-      "id": "generic-cc",
+      "id": "cmpe230",
       "type": "course"
     },
     {
-      "id": "generic-cc",
+      "id": "cmpe240",
       "type": "course"
     },
     {
-      "id": "generic-cc",
+      "id": "cmpe260",
+      "type": "course"
+    },
+    {
+      "id": "tk222",
       "type": "course"
     }
   ],
-  "credits": "16-19",
+  "credits": "20",
   "ects": ""
 }

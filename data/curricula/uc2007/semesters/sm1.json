@@ -1,40 +1,36 @@
 {
-  "id": "bouncmpe-uc2012-sm4",
+  "id": "bouncmpe-uc2015-sm1",
   "type": "semester",
   "languages": {
     "en": {
-      "title": "Fourth Semester"
+      "title": "First Semester"
     },
     "tr": {
-      "title": "Dördüncü Dönem"
+      "title": "Birinci Dönem"
     }
   },
   "courses": [
     {
-      "id": "math202",
+      "id": "math101",
       "type": "course"
     },
     {
-      "id": "ee212",
+      "id": "phys121",
       "type": "course"
     },
     {
-      "id": "cmpe230",
+      "id": "chem105",
       "type": "course"
     },
     {
-      "id": "cmpe240",
+      "id": "cmpe150",
       "type": "course"
     },
     {
-      "id": "cmpe260",
-      "type": "course"
-    },
-    {
-      "id": "tk222",
+      "id": "ec101",
       "type": "course"
     }
   ],
-  "credits": "20",
+  "credits": "18",
   "ects": ""
 }

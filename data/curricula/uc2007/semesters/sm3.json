@@ -1,37 +1,37 @@
 {
-  "id": "bouncmpe-uc2012-sm5",
+  "id": "bouncmpe-uc2015-sm3",
   "type": "semester",
   "languages": {
     "en": {
-      "title": "Fifth Semester"
+      "title": "Third Semester"
     },
     "tr": {
-      "title": "Beşinci Dönem"
+      "title": "Üçüncü Dönem"
     }
   },
   "courses": [
     {
-      "id": "cmpe300",
+      "id": "math201",
       "type": "course"
     },
     {
-      "id": "cmpe322",
+      "id": "phys202",
       "type": "course"
     },
     {
-      "id": "cmpe343",
+      "id": "ee210",
       "type": "course"
     },
     {
-      "id": "cmpe344",
+      "id": "cmpe220",
       "type": "course"
     },
     {
-      "id": "ie310",
+      "id": "cmpe250",
       "type": "course"
     },
     {
-      "id": "htr311",
+      "id": "tk221",
       "type": "course"
     }
   ],

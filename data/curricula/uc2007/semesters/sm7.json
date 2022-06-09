@@ -1,36 +1,36 @@
 {
-  "id": "bouncmpe-uc2012-sm1",
+  "id": "bouncmpe-uc2015-sm7",
   "type": "semester",
   "languages": {
     "en": {
-      "title": "First Semester"
+      "title": "Seventh Semester"
     },
     "tr": {
-      "title": "Birinci Dönem"
+      "title": "Yedinci Dönem"
     }
   },
   "courses": [
     {
-      "id": "math101",
+      "id": "cmpe443",
       "type": "course"
     },
     {
-      "id": "phys121",
+      "id": "cmpe451",
       "type": "course"
     },
     {
-      "id": "chem105",
+      "id": "generic-cc",
       "type": "course"
     },
     {
-      "id": "cmpe150",
+      "id": "generic-cc",
       "type": "course"
     },
     {
-      "id": "ec101",
+      "id": "generic-cc",
       "type": "course"
     }
   ],
-  "credits": "18",
+  "credits": "15-18",
   "ects": ""
 }

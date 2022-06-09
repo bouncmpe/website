@@ -1,37 +1,37 @@
 {
-  "id": "bouncmpe-uc2012",
+  "id": "bouncmpe-uc2015",
   "type": "curriculum",
   "semesters": [
     {
-      "id": "bouncmpe-uc2012-sm1",
+      "id": "bouncmpe-uc2015-sm1",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm2",
+      "id": "bouncmpe-uc2015-sm2",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm3",
+      "id": "bouncmpe-uc2015-sm3",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm4",
+      "id": "bouncmpe-uc2015-sm4",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm5",
+      "id": "bouncmpe-uc2015-sm5",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm6",
+      "id": "bouncmpe-uc2015-sm6",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm7",
+      "id": "bouncmpe-uc2015-sm7",
       "type": "semester"
     },
     {
-      "id": "bouncmpe-uc2012-sm8",
+      "id": "bouncmpe-uc2015-sm8",
       "type": "semester"
     }
   ],

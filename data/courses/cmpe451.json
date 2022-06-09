@@ -11,5 +11,6 @@
     "tr": {
       "title": "Yazılım Mühendisliğinde Proje Tasarımı"
     }
-  }
+  },
+  "prerequisites": ["cmpe321", "cmpe352"]
 }

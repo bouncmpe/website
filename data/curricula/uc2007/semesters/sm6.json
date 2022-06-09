@@ -1,36 +1,40 @@
 {
-  "id": "bouncmpe-uc2012-sm7",
+  "id": "bouncmpe-uc2015-sm6",
   "type": "semester",
   "languages": {
     "en": {
-      "title": "Seventh Semester"
+      "title": "Sixth Semester"
     },
     "tr": {
-      "title": "Yedinci Dönem"
+      "title": "Altıncı Dönem"
     }
   },
   "courses": [
     {
-      "id": "cmpe443",
+      "id": "cmpe321",
       "type": "course"
     },
     {
-      "id": "cmpe451",
+      "id": "cmpe350",
       "type": "course"
     },
     {
-      "id": "generic-cc",
+      "id": "cmpe352",
       "type": "course"
     },
     {
-      "id": "generic-cc",
+      "id": "cmpe362",
       "type": "course"
     },
     {
-      "id": "generic-cc",
+      "id": "ie312",
+      "type": "course"
+    },
+    {
+      "id": "htr312",
       "type": "course"
     }
   ],
-  "credits": "15-18",
+  "credits": "18",
   "ects": ""
 }
