@@ -11,13 +11,13 @@ params:
 
 menu:
   top:
-    - identifier: for_students
-      name: Öğrenciler için
-      url: resources/students
+    - identifier: resources-university
+      name: Üniversite
+      url: http://www.boun.edu.tr
       weight: 100
-    - identifier: for_staff
-      name: Personel için
-      url: resources/staff
+    - identifier: docs
+      name: Mevzuat
+      url: https://bouncmpedocs.netlify.app
       weight: 200
     - identifier: for_industry
       name: Şirketler için
@@ -31,6 +31,10 @@ menu:
       name: Etkinlikler
       url: events
       weight: 500
+    - identifier: cmpe492
+      name: 491/492
+      url: https://bouncmpe-capstone.netlify.app
+      weight: 600
     - identifier: donate
       name: Bağış Yapın
       url: donate

@@ -1,5 +1,5 @@
-baseURL: ""
-copyright: "Copyright © {year} BOUNCMPE-WEB"
+baseURL: "https://bouncmpe.netlify.app"
+copyright: "Copyright © {year} BOUNCMPEWEB"
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -32,7 +32,7 @@ markup:
       typographer: true
     parser:
       autoHeadingID: true
-      autoHeadingIDType: github
+      autoHeadingIDType: github-ascii
       attribute:
         block: true
         title: true
