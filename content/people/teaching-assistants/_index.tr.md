@@ -1,18 +1,18 @@
 ---
-title: Kişiler
+title: Asistanlar
 type: person
 
 sections:
-  - title: Asistanlar
+  - title: Teaching Assistants
     categories: ["teaching-assistant"]
     layout: "member-panel"
-  - title: Geçmiş Asistanlar
+  - title: Former Teaching Assistants
     categories: ["former-ta"]
     card_template: "people/member-card-former"
     columns: 3
 
 menu:
   main:
-    identifier: people
+    parent: people
     weight: 2
 ---
