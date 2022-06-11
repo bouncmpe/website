@@ -1,0 +1,24 @@
+{
+   "categories": [
+      "adjunct-faculty",
+      "former-ta"
+   ],
+   "email": "salah@boun.edu.tr",
+   "image": "/images/person.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Albert Ali Salah",
+   "position": "full-professor",
+   "type": "person"
+}

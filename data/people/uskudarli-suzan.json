@@ -1,0 +1,26 @@
+{
+   "categories": [
+      "faculty"
+   ],
+   "email": "suzan.uskudarli@boun.edu.tr",
+   "image": "image.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Suzan Üsküdarlı",
+   "position": "assistant-professor",
+   "roles": [
+      "web"
+   ],
+   "type": "person"
+}

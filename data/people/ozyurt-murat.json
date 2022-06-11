@@ -1,0 +1,23 @@
+{
+   "categories": [
+      "instructor"
+   ],
+   "email": "murat.ozyurt@boun.edu.tr",
+   "image": "image.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Murat Özyurt",
+   "position": "doctor",
+   "type": "person"
+}

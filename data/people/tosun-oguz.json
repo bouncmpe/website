@@ -1,0 +1,26 @@
+{
+   "categories": [
+      "emeritus"
+   ],
+   "email": "tosuno@boun.edu.tr",
+   "image": "image.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Oğuz Tosun",
+   "position": "full-professor",
+   "roles": [
+      "emeritus"
+   ],
+   "type": "person"
+}

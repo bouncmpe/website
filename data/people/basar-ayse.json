@@ -1,0 +1,23 @@
+{
+   "categories": [
+      "faculty"
+   ],
+   "email": "ayse.basar@boun.edu.tr",
+   "image": "image.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Ayşe Başar",
+   "position": "full-professor",
+   "type": "person"
+}

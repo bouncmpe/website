@@ -1,0 +1,29 @@
+{
+   "categories": [
+      "faculty",
+      "former-ta"
+   ],
+   "email": "say@boun.edu.tr",
+   "image": "/images/person.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Cem Say",
+   "position": "full-professor",
+   "roles": [
+      "double-major",
+      "exchange-students",
+      "transfer-students"
+   ],
+   "type": "person"
+}

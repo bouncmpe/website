@@ -1,0 +1,23 @@
+{
+   "categories": [
+      "pt-faculty"
+   ],
+   "email": "pinar.yanardag@boun.edu.tr",
+   "image": "image.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Pınar Yanardağ",
+   "position": "doctor",
+   "type": "person"
+}

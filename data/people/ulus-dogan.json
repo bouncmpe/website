@@ -1,0 +1,22 @@
+{
+  "categories": ["faculty"],
+  "email": "dogan.ulus@boun.edu.tr",
+  "image_path": "people/ulus-dogan/image.jpeg",
+  "interests": [],
+  "links": [
+    {
+      "icon": "home",
+      "identifier": "home",
+      "url": "https://example.org"
+    },
+    {
+      "icon": "github",
+      "identifier": "github",
+      "url": "https://github.com/doganulus"
+    }
+  ],
+  "name": "Doğan Ulus",
+  "position": "assistant-professor",
+  "roles": ["web"],
+  "type": "person"
+}

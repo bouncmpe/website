@@ -1,0 +1,27 @@
+{
+   "categories": [
+      "faculty",
+      "former-postdoc"
+   ],
+   "email": "ozlem.durmaz@boun.edu.tr",
+   "image": "image.png",
+   "interests": [],
+   "links": [
+      {
+         "icon": "home",
+         "identifier": "home",
+         "url": "https://example.org"
+      },
+      {
+         "icon": "github",
+         "identifier": "github",
+         "url": "https://github.com/bouncmpe"
+      }
+   ],
+   "name": "Özlem Durmaz İncel",
+   "position": "associate-professor",
+   "roles": [
+      "web"
+   ],
+   "type": "person"
+}
