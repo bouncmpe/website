@@ -1,5 +1,5 @@
-github.com/bouncmpe/hugo-theme-department v0.0.0-20220606203101-5a143f738101 h1:pN5LDvjfvQ8YXpUwj1jUvOruo6jbFRdhK4oSh/9WNC8=
-github.com/bouncmpe/hugo-theme-department v0.0.0-20220606203101-5a143f738101/go.mod h1:xXpX96XqfmJgp2BzFbe2rRLADgeAl/FFC4hSxAF50qA=
+github.com/bouncmpe/hugo-theme-department v0.4.0 h1:oekesqtk4oVDWwWudC4LJhA0/gxVxQpzmdwSE4gFuGA=
+github.com/bouncmpe/hugo-theme-department v0.4.0/go.mod h1:xXpX96XqfmJgp2BzFbe2rRLADgeAl/FFC4hSxAF50qA=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20101.20300 h1:1Xe5fPOjFpMakBfsXKzzKtdu/sfqoM0o7JuSp2l1RiU=
 github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20101.20300/go.mod h1:/FiWjAJyOiVrC2vDur97ogmWIaBB+YS6jH7nf6cm+3E=
 github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000/go.mod h1:mFberT6ZtcchrsDtfvJM7aAH2bDKLdOnruUHl0hlapI=
