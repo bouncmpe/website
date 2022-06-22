@@ -7,6 +7,54 @@ params:
   logo_text_top: "Boğaziçi University, Department of"
   powered_by_text: >-
     Powered by [Hugo](https://gohugo.io) and [Bootstrap](https://getbootstrap.com)
+  social: []
+  footer:
+    sections:
+      - title: Boğaziçi University
+        links:
+          - title: Homepage
+            url: http://www.boun.edu.tr
+          - title: Faculty of Engineering
+            url: http://www.eng.boun.edu.tr/
+          - title: Institute of Science and Engineering
+            url: http://www.fbe.boun.edu.tr
+          - title: University Library
+            url: https://www.library.boun.edu.tr/
+          - title: IT Services
+            url: https://cc.boun.edu.tr/
+          - title: Campus Map
+            url: https://harita.boun.edu.tr/
+
+      - title: Academics
+        links:
+          - title: Academic Calendar
+            url: https://akademiktakvim.boun.edu.tr/
+          - title: Registration (BUIS)
+            url: https://registration.boun.edu.tr/
+          - title: Moodle
+            url: https://moodle.boun.edu.tr/
+          - title: Distance Learning
+            url: https://distancelearning.boun.edu.tr/
+          - title: International Relations
+            url: http://intl.boun.edu.tr/
+
+      - title: Campus Life
+        links:
+          - title: Events Calendar
+            url: http://takvim.boun.edu.tr/bu/
+          - title: Music at Campus
+            url: https://klasikmuzik.boun.edu.tr/
+          - title: Cinema at Campus
+            url: https://sinebu.boun.edu.tr/
+          - title: Career Center
+            url: https://kariyermerkezi.boun.edu.tr/
+          - title: Student IT Club
+            url: https://www.compec.org/
+          - title: Virtual Campus Tour
+            url: http://sanaltur.boun.edu.tr/
+
+      - title: Other Links
+        links: []
 
 menu:
   top:

@@ -8,6 +8,60 @@ params:
   logo_text_top: Boğaziçi Üniversitesi
   powered_by_text: >-
     Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com) ile tasarlandı
+  social:
+    - icon: twitter
+      identifier: twitter
+      url: https://twitter.com/Bogazici_CmpE
+    - icon: github
+      identifier: github
+      url: https://github.com/bouncmpe
+  footer:
+    sections:
+      - title: Boğaziçi Üniversitesi
+        links:
+          - title: Anasayfa
+            url: http://www.boun.edu.tr
+          - title: Mühendislik Fakültesi
+            url: http://www.eng.boun.edu.tr/
+          - title: Fen Bilimleri Enstitüsü
+            url: http://www.fbe.boun.edu.tr
+          - title: Kütüphane
+            url: https://www.library.boun.edu.tr/
+          - title: Bilişim Hizmetleri
+            url: https://cc.boun.edu.tr/
+          - title: Kampüs Haritası
+            url: https://harita.boun.edu.tr/
+
+      - title: Eğitim & Öğretim
+        links:
+          - title: Akademik Takvim
+            url: https://akademiktakvim.boun.edu.tr/
+          - title: Kayıt İşleri
+            url: https://registration.boun.edu.tr/
+          - title: Moodle
+            url: https://moodle.boun.edu.tr/
+          - title: Uzaktan Öğrenme
+            url: https://distancelearning.boun.edu.tr/
+          - title: Uluslararası İlişkiler Ofisi
+            url: http://intl.boun.edu.tr/
+
+      - title: Kampüs Yaşamı
+        links:
+          - title: Etkinlik Takvimi
+            url: http://takvim.boun.edu.tr/bu/
+          - title: Müzik Kampüste
+            url: https://klasikmuzik.boun.edu.tr/
+          - title: Sinema Kampüste
+            url: https://sinebu.boun.edu.tr/
+          - title: Kariyer Merkezi
+            url: https://kariyermerkezi.boun.edu.tr/
+          - title: Bilişim Kulübü
+            url: https://www.compec.org/
+          - title: Sanal Kampüs Turu
+            url: http://sanaltur.boun.edu.tr/
+
+      - title: Diğer Bağlantılar
+        links: []
 
 menu:
   top:
