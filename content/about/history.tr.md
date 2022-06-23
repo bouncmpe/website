@@ -1,8 +1,8 @@
 ---
-title: Tarihçe
+title: Bölüm Tarihçesi
 menu:
   main:
     parent: about
-    name: Tarihçe
-    weight: 1
+    name: Bölüm Tarihçesi
+    weight: 2
 ---

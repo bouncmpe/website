@@ -7,5 +7,5 @@ menu:
   main:
     parent: undergraduate
     name: Curriculum
-    weight: 1
+    weight: 2
 ---

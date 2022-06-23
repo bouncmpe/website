@@ -7,5 +7,5 @@ menu:
   main:
     parent: undergraduate
     name: Ders Çizelgesi
-    weight: 1
+    weight: 2
 ---
