@@ -11,6 +11,13 @@ params:
   logo_height: 80px
   logo_width: 80px
   cropping: "640x320 q90 smart"
+  social:
+    - identifier: twitter
+      icon: twitter
+      url: https://twitter.com/Bogazici_CmpE
+    - identifier: github
+      icon: github
+      url: https://github.com/bouncmpe
 
 outputs:
   home:

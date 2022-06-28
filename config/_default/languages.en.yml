@@ -1,13 +1,40 @@
 languageName: English
+languageCode: en
+weight: 2 # Order for language selection menu
 title: Department of Computer Engineering | Bogazici University
 
-weight: 2
+menu:
+  top:
+    - identifier: news
+      name: News
+      url: news
+      weight: 100
+    - identifier: events
+      name: Events
+      url: events
+      weight: 200
+    - identifier: courses
+      name: Courses
+      url: courses
+      weight: 300
+    - identifier: docs
+      name: Docs
+      url: https://bouncmpedocs.netlify.app
+      weight: 400
+    - identifier: cmpe492
+      name: 491/492
+      url: https://bouncmpe-capstone.netlify.app
+      weight: 500
+    - identifier: donate
+      name: Donate
+      url: donate
+      weight: 1000
+
 params:
   logo_text_main: Computer Engineering
   logo_text_top: "Boğaziçi University, Department of"
   powered_by_text: >-
     Powered by [Hugo](https://gohugo.io) and [Bootstrap](https://getbootstrap.com)
-  social: []
   footer:
     sections:
       - title: Boğaziçi University
@@ -55,34 +82,3 @@ params:
 
       - title: Other Links
         links: []
-
-menu:
-  top:
-    - identifier: resources-university
-      name: University
-      url: http://www.boun.edu.tr
-      weight: 100
-    - identifier: resources-industry
-      name: Industry
-      url: resources/industry
-      weight: 150
-    - identifier: docs
-      name: Docs
-      url: https://bouncmpedocs.netlify.app
-      weight: 200
-    - identifier: news
-      name: News
-      url: news
-      weight: 400
-    - identifier: events
-      name: Events
-      url: events
-      weight: 500
-    - identifier: cmpe492
-      name: 491/492
-      url: https://bouncmpe-capstone.netlify.app
-      weight: 600
-    - identifier: donate
-      name: Donate
-      url: donate
-      weight: 1000

@@ -1,20 +1,41 @@
 languageName: Türkçe
 languageCode: tr
+weight: 1 # Order for language selection menu
 title: Bilgisayar Mühendisliği Bölümü | Boğaziçi Üniversitesi
-weight: 1
+
+menu:
+  top:
+    - identifier: news
+      name: Haberler
+      url: news
+      weight: 100
+    - identifier: events
+      name: Etkinlikler
+      url: events
+      weight: 200
+    - identifier: courses
+      name: Dersler
+      url: courses
+      weight: 300
+    - identifier: docs
+      name: Mevzuat
+      url: https://bouncmpedocs.netlify.app
+      weight: 400
+    - identifier: cmpe492
+      name: 491/492
+      url: https://bouncmpe-capstone.netlify.app
+      weight: 500
+    - identifier: donate
+      name: Bağış Yapın
+      url: donate
+      weight: 1000
+
 params:
   about: " Translation "
   logo_text_main: Bilgisayar Mühendisliği
   logo_text_top: Boğaziçi Üniversitesi
   powered_by_text: >-
     Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com) ile tasarlandı
-  social:
-    - icon: twitter
-      identifier: twitter
-      url: https://twitter.com/Bogazici_CmpE
-    - icon: github
-      identifier: github
-      url: https://github.com/bouncmpe
   footer:
     sections:
       - title: Boğaziçi Üniversitesi
@@ -62,34 +83,3 @@ params:
 
       - title: Diğer Bağlantılar
         links: []
-
-menu:
-  top:
-    - identifier: resources-university
-      name: Üniversite
-      url: http://www.boun.edu.tr
-      weight: 100
-    - identifier: docs
-      name: Mevzuat
-      url: https://bouncmpedocs.netlify.app
-      weight: 200
-    - identifier: for_industry
-      name: Şirketler için
-      url: resources/industry
-      weight: 300
-    - identifier: news
-      name: Haberler
-      url: news
-      weight: 400
-    - identifier: events
-      name: Etkinlikler
-      url: events
-      weight: 500
-    - identifier: cmpe492
-      name: 491/492
-      url: https://bouncmpe-capstone.netlify.app
-      weight: 600
-    - identifier: donate
-      name: Bağış Yapın
-      url: donate
-      weight: 1000
