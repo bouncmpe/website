@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "8",
   "hours": "3+1+2",
+  "categories": ["science"],
   "languages": {
     "en": {
-      "title": "Introductory Mechanics and Thermodynamics"
+      "title": "Introductory Mechanics and Thermodynamics",
+      "description": ""
     },
     "tr": {
-      "title": "Mekanik ve Termodinamiğe Giriş"
+      "title": "Mekanik ve Termodinamiğe Giriş",
+      "description": ""
     }
   }
 }

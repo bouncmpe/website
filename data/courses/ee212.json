@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "4",
   "hours": "3+0+0",
+  "categories": ["engineering"],
   "languages": {
     "en": {
-      "title": "Introduction to Electronic Engineering"
+      "title": "Introduction to Electronic Engineering",
+      "description": ""
     },
     "tr": {
-      "title": "Elektronik Mühendisliğine Giriş"
+      "title": "Elektronik Mühendisliğine Giriş",
+      "description": ""
     }
   },
   "prerequisites": ["ee210"]

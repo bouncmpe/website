@@ -1,15 +1,18 @@
 {
-  "id": "cmpe150",
+  "id": "cmpe260",
   "type": "course",
   "credits": "3",
   "ects": "5",
   "hours": "3+0+0",
+  "categories": ["cmpe", "programming"],
   "languages": {
     "en": {
-      "title": "Principles of Programming Languages"
+      "title": "Principles of Programming Languages",
+      "description": "Syntax, semantics and pragmatics of programming languages. Data, storage and control. Binding of identifiers. Procedural abstraction. Definitions, sequences and concurrent processes. Types. Formal semantics. Study of key features of existing programming languages."
     },
     "tr": {
-      "title": "Programlama Dillerinin Prensipleri"
+      "title": "Programlama Dillerinin Prensipleri",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe250"]

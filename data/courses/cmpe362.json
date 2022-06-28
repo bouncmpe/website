@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "6",
   "hours": "3+0+0",
+  "categories": ["cmpe", "engineering"],
   "languages": {
     "en": {
-      "title": "Introduction to Signal Processing for Computer Engineers"
+      "title": "Introduction to Signal Processing for Computer Engineers",
+      "description": "Introduction to discrete and continuous time signals and systems with computer engineering applications. Time-domain signal representations, impulse response of linear time-invariant systems; convolution. Fourier series. Spectrum representation of signals. Fourier transform. Digital signals and sampling. Reconstruction, Filtering, Z-transform representation, discrete Fourier transform. Algorithms for signal processing. Floating point and quantization errors. Exercises with applications in audio and image processing."
     },
     "tr": {
-      "title": "Bilgisayar Mühendisleri için Sinyal İşlemeye Giriş"
+      "title": "Bilgisayar Mühendisleri için Sinyal İşlemeye Giriş",
+      "description": ""
     }
   },
   "prerequisites": ["math202"]

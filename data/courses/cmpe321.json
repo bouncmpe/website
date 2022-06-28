@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "3+0+2",
+  "categories": ["cmpe", "software"],
   "languages": {
     "en": {
-      "title": "Introduction to Database Systems"
+      "title": "Introduction to Database Systems",
+      "description": "Logical organization of data: Entity-relationship modeling of data. Hierarchical, network and relational models. Data description and query languages. Normal forms and database design. Physical design and access strategies. Security, integrity and reliability. Design and implementation of a simple database management system that includes file security and a simple query language."
     },
     "tr": {
-      "title": "Veri Tabanı Sistemlerine Giriş"
+      "title": "Veri Tabanı Sistemlerine Giriş",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe250"]

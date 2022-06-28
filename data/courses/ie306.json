@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "7",
   "hours": "3+0+2",
+  "categories": ["engineering"],
   "languages": {
     "en": {
-      "title": "Systems Simulation"
+      "title": "Systems Simulation",
+      "description": ""
     },
     "tr": {
-      "title": "Sistem Benzetimi"
+      "title": "Sistem Benzetimi",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe343"]

@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "6",
   "hours": "3+1+0",
+  "categories": ["cmpe", "mathematics"],
   "languages": {
     "en": {
-      "title": "Introduction to Probability and Statistics for Computer Engineers"
+      "title": "Introduction to Probability and Statistics for Computer Engineers",
+      "description": "Introduction to probability theory. Random variables, expectation, variance and moment generating functions. Distributions: Bernoulli, binomial, uniform, Gaussian, exponential, Poisson, gamma. Introduction to statistical concepts. Sampling and sample statistics. Point and interval estimation. Hypothesis testing. Regression. Numerical and computational aspects of random variable generation, sampling, and estimation."
     },
     "tr": {
-      "title": "Bilgisayar Mühendisleri için Olasılık ve İstatistiğe Giriş"
+      "title": "Bilgisayar Mühendisleri için Olasılık ve İstatistiğe Giriş",
+      "description": ""
     }
   },
   "prerequisites": ["math101"]

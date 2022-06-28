@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "3+1+2",
+  "categories": ["science"],
   "languages": {
     "en": {
-      "title": "Physics III"
+      "title": "Physics III",
+      "description": ""
     },
     "tr": {
-      "title": "Fizik III"
+      "title": "Fizik III",
+      "description": ""
     }
   },
   "prerequisites": ["phys121"]

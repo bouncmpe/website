@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "6",
   "hours": "3+2+0",
+  "categories": ["general"],
   "languages": {
     "en": {
-      "title": "Principles of Microeconomics"
+      "title": "Principles of Microeconomics",
+      "description": ""
     },
     "tr": {
-      "title": "Mikroekonominin İlkeleri"
+      "title": "Mikroekonominin İlkeleri",
+      "description": ""
     }
   }
 }

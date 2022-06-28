@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "3+0+0",
+  "categories": ["cmpe", "cs"],
   "languages": {
     "en": {
-      "title": "Formal Languages and Automata Theory"
+      "title": "Formal Languages and Automata Theory",
+      "description": "Strings and languages. Classification of grammars. Finite-state automata and regular expressions. Pushdown automata and context-free grammars. Context sensitive grammars and linear bounded automata. Turing machines."
     },
     "tr": {
-      "title": "Biçimsel Diller ve Makineler Kuramı"
+      "title": "Biçimsel Diller ve Makineler Kuramı",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe220"]

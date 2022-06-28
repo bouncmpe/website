@@ -4,12 +4,15 @@
   "credits": "2",
   "ects": "4",
   "hours": "2+1+0",
+  "categories": ["cmpe", "software"],
   "languages": {
     "en": {
-      "title": "Fundamentals of Software Engineering"
+      "title": "Fundamentals of Software Engineering",
+      "description": "Introductory concepts in software engineering. The software life cycle and the phases in software development: feasibility study, analysis, specification, design, implementation and testing, documentation and maintenance. Tools, techniques, environments and methodologies. Management issues: planning, organization and control. Professional ethics."
     },
     "tr": {
-      "title": "Yazılım Mühendisliği Temelleri"
+      "title": "Yazılım Mühendisliği Temelleri",
+      "description": ""
     }
   }
 }

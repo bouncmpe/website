@@ -4,12 +4,15 @@
   "credits": "2",
   "ects": "3",
   "hours": "2+0+0",
+  "categories": ["general"],
   "languages": {
     "en": {
-      "title": "Turkish for Native Speakers I"
+      "title": "Turkish for Native Speakers I",
+      "description": ""
     },
     "tr": {
-      "title": "Türkçe I"
+      "title": "Türkçe I",
+      "description": ""
     }
   }
 }

@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "3+0+2",
+  "categories": ["cmpe", "cs"],
   "languages": {
     "en": {
-      "title": "Data Structures and Algorithms"
+      "title": "Data Structures and Algorithms",
+      "description": "Graphs. Advanced Sorting. Hashing. Heap Structures. Search Structures. Complexity. Parallel algorithms. File organization."
     },
     "tr": {
-      "title": "Veri Yapıları ve Yordamlar"
+      "title": "Veri Yapıları ve Yordamlar",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe160"]

@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "",
+  "categories": ["general"],
   "languages": {
     "en": {
-      "title": ""
+      "title": "",
+      "description": ""
     },
     "tr": {
-      "title": ""
+      "title": "",
+      "description": ""
     }
   }
 }

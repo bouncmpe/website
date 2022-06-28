@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "7",
   "hours": "4+2+0",
+  "categories": ["mathematics"],
   "languages": {
     "en": {
-      "title": ""
+      "title": "Differential Equations",
+      "description": "First-order differential equations, linear equations, homogeneous and non-homogeneous, series solutions, the Laplace transform, systems of first-order linear equations, boundary value problems, Fourier series."
     },
     "tr": {
-      "title": ""
+      "title": "Diferansiyel Denklemler",
+      "description": ""
     }
   },
   "prerequisites": ["math101", "math201"]

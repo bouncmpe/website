@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "4+2+0",
+  "categories": ["mathematics"],
   "languages": {
     "en": {
-      "title": "Calculus II"
+      "title": "Calculus II",
+      "description": "Vector calculus, functions of several variables, directional derivatives, gradient, Lagrange multipliers, multiple integrals and applications, change of variables, coordinate systems, line integrals, Green's theorem and its applications."
     },
     "tr": {
-      "title": "Analiz II"
+      "title": "Analiz II",
+      "description": ""
     }
   },
   "prerequisites": ["math101"]

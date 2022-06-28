@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "3+0+2",
+  "categories": ["cmpe", "hardware"],
   "languages": {
     "en": {
-      "title": "Principles of Embedded Systems Design"
+      "title": "Principles of Embedded Systems Design",
+      "description": "Embedded systems design flow. Hardware-software co-design. Real-time software design. Real-time debugging techniques and tools. Hardware-software integration: interface design. Examples on the design of data acquisition and control systems. Laboratory."
     },
     "tr": {
-      "title": "Gömülü Sistem Tasarım Temelleri"
+      "title": "Gömülü Sistem Tasarım Temelleri",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe240"]

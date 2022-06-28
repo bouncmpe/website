@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "",
+  "categories": ["general"],
   "languages": {
     "en": {
-      "title": "History of the Turkish Republic II"
+      "title": "History of the Turkish Republic II",
+      "description": ""
     },
     "tr": {
-      "title": ""
+      "title": "Türkiye Cumhuriyeti Tarihi II",
+      "description": ""
     }
   }
 }

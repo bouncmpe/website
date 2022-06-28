@@ -4,12 +4,15 @@
   "credits": "2",
   "ects": "5",
   "hours": "1+0+2",
+  "categories": ["cmpe", "software"],
   "languages": {
     "en": {
-      "title": "Project Development in Software Engineering"
+      "title": "Project Development in Software Engineering",
+      "description": "Management and implementation of a large software development as a group. Application of software engineering principles in a project setting."
     },
     "tr": {
-      "title": "Yazılım Mühendisliğinde Proje Tasarımı"
+      "title": "Yazılım Mühendisliğinde Proje Tasarımı",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe321", "cmpe352"]

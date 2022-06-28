@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "3+0+2",
+  "categories": ["engineering"],
   "languages": {
     "en": {
-      "title": "Operations Research"
+      "title": "Operations Research",
+      "description": ""
     },
     "tr": {
-      "title": "Yöneylem Araştırması"
+      "title": "Yöneylem Araştırması",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe201"]

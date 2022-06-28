@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "3+0+0",
+  "categories": ["cmpe", "cs"],
   "languages": {
     "en": {
-      "title": "Analysis of Algorithms"
+      "title": "Analysis of Algorithms",
+      "description": "Analysis of computer science algorithms: Sorting, searching, paging and parallelism. Analysis of mathematical algorithms: games and puzzles, network algorithms, and probabilistic algorithms."
     },
     "tr": {
-      "title": "Algoritma Analizi"
+      "title": "Algoritma Analizi",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe250"]

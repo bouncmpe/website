@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "4",
   "hours": "3+0+0",
+  "categories": ["engineering"],
   "languages": {
     "en": {
-      "title": "Introduction to Electrical Engineering"
+      "title": "Introduction to Electrical Engineering",
+      "description": ""
     },
     "tr": {
-      "title": "Elektrik Mühendisliğine Giriş"
+      "title": "Elektrik Mühendisliğine Giriş",
+      "description": ""
     }
   }
 }

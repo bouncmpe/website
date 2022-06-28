@@ -4,9 +4,11 @@
   "credits": "4",
   "ects": "7",
   "hours": "3+1+3",
+  "categories": ["science"],
   "languages": {
     "en": {
-      "title": "Fundamentals of Chemistry"
+      "title": "Fundamentals of Chemistry",
+      "description": "Atomic and molecular structures, solids, liquids, gases, solutions of electrolytes (properties, acids and bases, electrochemistry), thermodynamics, thermochemistry and rates and mechanisms of reactions. Three hours of laboratory per week."
     },
     "tr": {
       "title": "Kimyanın Temelleri"

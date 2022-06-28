@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "5",
   "hours": "4+2+0",
+  "categories": ["mathematics"],
   "languages": {
     "en": {
-      "title": "Matrix Theory"
+      "title": "Matrix Theory",
+      "description": "Matrix algebra, determinants, Gaussian elimination, Cramer's rule, inverses, systems of linear equations, rank, eigenvalues and eigenvectors, introduction to linear programming."
     },
     "tr": {
-      "title": "Matris Kuramı"
+      "title": "Matris Kuramı",
+      "description": ""
     }
   }
 }

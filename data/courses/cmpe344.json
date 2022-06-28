@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "3+0+2",
+  "categories": ["cmpe", "hardware"],
   "languages": {
     "en": {
-      "title": "Computer Organization"
+      "title": "Computer Organization",
+      "description": "Register transfer level design. Basic computer layout. Instruction sets and their implementation. Addressing techniques. ALU, hardwired and microprogrammed controllers. Memory unit. I/0 structures and interrupt handling. Improvements on von Neumann machine. Bus structures. Assembly programming."
     },
     "tr": {
-      "title": "Bilgisayar Organizasyonu"
+      "title": "Bilgisayar Organizasyonu",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe240"]

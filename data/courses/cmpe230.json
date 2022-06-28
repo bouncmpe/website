@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "3+0+2",
+  "categories": ["cmpe", "software"],
   "languages": {
     "en": {
-      "title": "Systems Programming"
+      "title": "Systems Programming",
+      "description": "Overview of compilers, interpreters, assemblers, linkers and loaders. Unix environment and system calls. Shell programming. Signals and exceptions. Localization and Unicode. PERL and CGI programming. Assembly language programming. Introduction to multithreading. Introductory Graphical User Interface (GUI) programming."
     },
     "tr": {
-      "title": "Sistem Programlama"
+      "title": "Sistem Programlama",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe160"]

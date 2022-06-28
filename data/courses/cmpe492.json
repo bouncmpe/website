@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "8",
   "hours": "0+0+8",
+  "categories": ["cmpe", "design"],
   "languages": {
     "en": {
-      "title": "Project"
+      "title": "Project",
+      "description": ""
     },
     "tr": {
-      "title": "Proje"
+      "title": "Proje",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe-senior"]

@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "6",
   "hours": "3+0+0",
+  "categories": ["cmpe", "hardware"],
   "languages": {
     "en": {
-      "title": "Introduction to Robotics"
+      "title": "Introduction to Robotics",
+      "description": "Designing, building and programming mobile robots; sensors, effectors, locomotion, basic control theory, control architectures, path planning, localization, mapping, learning. Teamwork; robot contest."
     },
     "tr": {
-      "title": "Robotbilime Giriş"
+      "title": "Robotbilime Giriş",
+      "description": ""
     }
   },
   "prerequisites": ["math202"]

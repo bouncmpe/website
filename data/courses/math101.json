@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "6",
   "hours": "4+2+0",
+  "categories": ["mathematics"],
   "languages": {
     "en": {
-      "title": "Calculus I"
+      "title": "Calculus I",
+      "description": "Functions, limits, continuity, differentiation and applications, integration, fundamental theorem of calculus, techniques and applications of integration, improper integrals and series, Taylor polynomials, power series, basic transcendental functions."
     },
     "tr": {
-      "title": "Analiz I"
+      "title": "Analiz I",
+      "description": ""
     }
   }
 }

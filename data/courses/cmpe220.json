@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "3+0+0",
+  "categories": ["cmpe", "mathematics"],
   "languages": {
     "en": {
-      "title": "Discrete Computational Structures"
+      "title": "Discrete Computational Structures",
+      "description": "Propositional logic and proofs. Set theory. Functions and relations. Algebraic structures. Groups and semi-groups. Graphs, lattices and Boolean algebra."
     },
     "tr": {
-      "title": "Kesikli Hesaplama Yapıları"
+      "title": "Kesikli Hesaplama Yapıları",
+      "description": ""
     }
   }
 }

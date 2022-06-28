@@ -4,12 +4,15 @@
   "credits": "4",
   "ects": "5",
   "hours": "3+0+2",
+  "categories": ["programming"],
   "languages": {
     "en": {
-      "title": "Fundamentals of Object Oriented Programming"
+      "title": "Fundamentals of Object Oriented Programming",
+      "description": "Review of scalar and structured data types. Object oriented programming concepts: classes and abstract data types, inheritence, polymorphisms, operator overloading. Classical and object oriented program specification, design, coding and testing. Linear (stacks, queues, linear lists) and nonlinear data structures (trees, sets). Sequential and random access files. Implementation of data structures: Linked lists, multidimensional arrays, records, character strings, stacks, queues, trees and sets. Recursion."
     },
     "tr": {
-      "title": "Nesneye Yönelik Programlamanın Temelleri"
+      "title": "Nesneye Yönelik Programlamanın Temelleri",
+      "description": ""
     }
   },
   "prerequisites": ["cmpe150"]

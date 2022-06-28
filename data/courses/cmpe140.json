@@ -4,12 +4,15 @@
   "credits": "3",
   "ects": "5",
   "hours": "2+1+2",
+  "categories": ["cmpe", "programming"],
   "languages": {
     "en": {
-      "title": "Introduction to Computing for Economics and Management"
+      "title": "Introduction to Computing for Economics and Management",
+      "description": "Introduction to Computing for Economics and Management. Basics of data analyis. Fundamentals of programming using Spreadsheet programs and matrix based high level languages. Elementary matrix computations (logical, mathematical and statistical), control flow and programming constructs (conditionals, loops and subroutines), data processing, simulation and visualization techniques."
     },
     "tr": {
-      "title": "Ekonomi ve İşletme için Bilgi İşleme Giriş"
+      "title": "Ekonomi ve İşletme için Bilgi İşleme Giriş",
+      "description": ""
     }
   }
 }
