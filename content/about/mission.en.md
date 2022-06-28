@@ -25,4 +25,4 @@ The mission of the Faculty of Engineering is to educate individuals for careers 
 
 ## Department of Computer Engineering
 
-> > The mission of the Computer Engineering Program is to graduate economically, socially and ethically conscious engineers that are equipped with the necessary analytical, mathematical, decision-making, computing, communication, teamwork and leadership skills that they can use to creatively design, implement, manage, maintain and improve a wide spectrum of computer hardware, software and information systems in the modern society.
+The mission of the Computer Engineering Program is to graduate economically, socially and ethically conscious engineers that are equipped with the necessary analytical, mathematical, decision-making, computing, communication, teamwork and leadership skills that they can use to creatively design, implement, manage, maintain and improve a wide spectrum of computer hardware, software and information systems in the modern society.
