@@ -1,10 +1,5 @@
 ---
 title: History of the Department
-menu:
-  main:
-    parent: about
-    name: Department History
-    weight: 2
 ---
 
 The Department of Computer Engineering was founded in 1982. The Computer Engineering undergraduate program was designed to meet the requirements of IEEE/ACM Joint Curriculum Committee. The first diplomas were awarded in 1986. That was also the year when the Computer Engineering MS and PhD programs were designed and commenced. In 1992, both the undergraduate and the graduate programs were revised to comply with the newly published IEEE/ACM joint Curriculum Committee report.

@@ -1,10 +1,5 @@
 ---
 title: Department Statistics
-menu:
-  main:
-    parent: about
-    name: Department Statistics
-    weight: 2
 ---
 
 ## Latest Enrollment Data

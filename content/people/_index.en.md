@@ -15,4 +15,47 @@ menu:
   main:
     identifier: people
     weight: 2
+    params:
+      extended: true
+      layout: standard
+      sections:
+        - title: Faculty
+          links:
+            - name: Faculty Members
+              url: people/faculty
+            - name: Emeritus Members
+              url: people/faculty
+            - name: Instructors
+              url: people/faculty
+            - name: Part-time Members
+              url: people/faculty
+            - name: Former Members
+              url: people/faculty
+
+        - title: Academic Staff
+          links:
+            - name: Teaching Assistants
+              url: people/teaching-assistants
+            - name: Research Assistants
+              url: people/staff
+            - name: Postdoctoral Researchers
+              url: people/staff
+
+        - title: Support Staff
+          links:
+            - name: Administrative Staff
+              url: people/support
+            - name: Network and System Admins
+              url: people/support
+            - name: Technical Support
+              url: people/support
+            - name: Support Staff
+              url: people/support
+
+        - title: Students
+          links:
+            - name: Student Assistants
+              url: people/student-assistants
+            - name: Student Peers
+              url: people/student-peers
 ---

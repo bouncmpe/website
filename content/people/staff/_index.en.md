@@ -13,9 +13,4 @@ sections:
     categories: ["former-postdoc", "former-ra"]
     card_template: "people/member-card-former"
     columns: 3
-
-menu:
-  main:
-    parent: people
-    weight: 3
 ---

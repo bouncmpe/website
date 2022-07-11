@@ -13,10 +13,4 @@ sections:
     categories: [former-faculty]
     card_template: "people/member-card-former"
     columns: 3
-
-menu:
-  main:
-    parent: people
-    name: Öğretim Üyeleri
-    weight: 1
 ---

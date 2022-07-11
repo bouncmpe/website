@@ -1,10 +1,5 @@
 ---
-title: İstastistikler
-menu:
-  main:
-    parent: about
-    name: İstastistikler
-    weight: 2
+title: İstatistikler
 ---
 
 ## Güncel Kayıt Sayıları

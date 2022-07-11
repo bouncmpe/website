@@ -1,10 +1,5 @@
 ---
 title: Mission Statements
-menu:
-  main:
-    parent: about
-    name: Our Mission
-    weight: 1
 ---
 
 ## Boğaziçi University
