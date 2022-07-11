@@ -15,5 +15,5 @@
       "description": ""
     }
   },
-  "prerequisites": ["cmpe-senior", "instructor-consent"]
+  "prerequisites": ["senior", "consent"]
 }

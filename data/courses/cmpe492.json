@@ -1,5 +1,5 @@
 {
-  "id": "cmpe491",
+  "id": "cmpe492",
   "type": "course",
   "credits": "4",
   "ects": "8",
@@ -15,5 +15,5 @@
       "description": ""
     }
   },
-  "prerequisites": ["cmpe-senior"]
+  "prerequisites": ["senior"]
 }
