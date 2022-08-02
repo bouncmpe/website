@@ -4,6 +4,8 @@ copyright: "Copyright © {year} Department of Computer Engineering, Boğaziçi U
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
+timeZone: Europe/Istanbul
+
 params:
   email: contact@cmpe.boun.edu.tr
   favicon: "images/logo.png"
