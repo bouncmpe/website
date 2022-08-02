@@ -1,9 +1,11 @@
+# backend:
+#   name: github
+#   repo: bouncmpe/website-test
+#   branch: main
 backend:
-  name: github
-  repo: bouncmpe/website-test
-  branch: main
-
+  name: git-gateway
 local_backend: true
+
 logo_url: /images/logo.png
 
 media_folder: assets/images/uploads
@@ -67,7 +69,7 @@ collections:
   - name: "phd-defense"
     label: "PhD Thesis Defense"
     folder: "content/events"
-    slug: "{{expiryDate}}-phd-defense-{{speaker | lower}}"
+    slug: "{{expiryDate}}-phd-thesis-defense-{{speaker | lower}}"
     path: "{{year}}/{{slug}}/index"
     media_folder: ""
     public_folder: ""
@@ -75,79 +77,13 @@ collections:
     i18n: true
     editor:
       preview: false
-    filter: { field: "type", value: "phd-defense" }
+    filter: { field: "type", value: "phd-thesis-defense" }
     fields:
       - {
           label: "Type",
           name: "type",
           widget: "hidden",
-          default: "phd-defense",
-          i18n: "duplicate",
-        }
-      - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
-      - {
-          label: "Speaker",
-          name: "speaker",
-          widget: "string",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Event Date",
-          name: "expiryDate",
-          widget: "date",
-          date_format: "DD MMMM YYYY",
-          format: "YYYY-MM-DD",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Start Time",
-          name: "startTime",
-          widget: "datetime",
-          date_format: false,
-          time_format: HH:mm,
-          format: "HH:mm",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Duration",
-          name: "duration",
-          widget: "select",
-          options: ["1 Hour", "2 Hours", "3 Hours", "4 Hours", "All Day"],
-          default: "1 Hour",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Location",
-          name: "location",
-          widget: "string",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Abstract",
-          name: "body",
-          widget: "markdown",
-          default: "",
-          i18n: true,
-        }
-
-  - name: "ms-defense"
-    label: "MS Thesis Defense"
-    folder: "content/events"
-    path: "{{year}}/{{slug}}/index"
-    slug: "{{expiryDate}}-ms-defense-{{speaker | lower}}"
-    media_folder: ""
-    public_folder: ""
-    create: true
-    i18n: true
-    editor:
-      preview: false
-    filter: { field: "type", value: "ms-defense" }
-    fields:
-      - {
-          label: "Type",
-          name: "type",
-          widget: "hidden",
-          default: "ms-defense",
+          default: "phd-thesis-defense",
           i18n: "duplicate",
         }
       - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
@@ -171,16 +107,17 @@ collections:
           name: "startTime",
           widget: "datetime",
           date_format: false,
-          time_format: HH:mm,
+          time_format: "h:mm A",
           format: "HH:mm",
           i18n: "duplicate",
         }
       - {
-          label: "Duration",
-          name: "duration",
-          widget: "select",
-          options: ["1 Hour", "2 Hours", "3 Hours", "4 Hours", "All Day"],
-          default: "1 Hour",
+          label: "Finish Time",
+          name: "finishTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: "h:mm A",
+          format: "HH:mm",
           i18n: "duplicate",
         }
       - {
@@ -188,6 +125,88 @@ collections:
           name: "location",
           widget: "string",
           i18n: "duplicate",
+        }
+      - {
+          label: "Meeting Link",
+          name: "meeting-link",
+          widget: "string",
+          i18n: "duplicate",
+          required: false,
+        }
+      - {
+          label: "Abstract",
+          name: "body",
+          widget: "markdown",
+          default: "",
+          i18n: true,
+        }
+
+  - name: "ms-thesis-defense"
+    label: "MS Thesis Defense"
+    folder: "content/events"
+    path: "{{year}}/{{slug}}/index"
+    slug: "{{expiryDate}}-ms-thesis-defense-{{speaker | lower}}"
+    media_folder: ""
+    public_folder: ""
+    create: true
+    i18n: true
+    editor:
+      preview: false
+    filter: { field: "type", value: "ms-thesis-defense" }
+    fields:
+      - {
+          label: "Type",
+          name: "type",
+          widget: "hidden",
+          default: "ms-thesis-defense",
+          i18n: "duplicate",
+        }
+      - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
+      - {
+          label: "Speaker",
+          name: "speaker",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Event Date",
+          name: "expiryDate",
+          widget: "datetime",
+          date_format: "DD MMMM YYYY",
+          time_format: false,
+          format: "YYYY-MM-DD",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Start Time",
+          name: "startTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: "h:mm A",
+          format: "HH:mm",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Finish Time",
+          name: "finishTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: "h:mm A",
+          format: "HH:mm",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Location",
+          name: "location",
+          widget: "string",
+          i18n: "duplicate",
+        }
+      - {
+          label: "Meeting Link",
+          name: "meeting-link",
+          widget: "string",
+          i18n: "duplicate",
+          required: false,
         }
       - {
           label: "Abstract",
@@ -238,16 +257,17 @@ collections:
           name: "startTime",
           widget: "datetime",
           date_format: false,
-          time_format: HH:mm,
+          time_format: "h:mm A",
           format: "HH:mm",
           i18n: "duplicate",
         }
       - {
-          label: "Duration",
-          name: "duration",
-          widget: "select",
-          options: ["1 Hour", "2 Hours", "3 Hours", "4 Hours", "All Day"],
-          default: "1 Hour",
+          label: "Finish Time",
+          name: "finishTime",
+          widget: "datetime",
+          date_format: false,
+          time_format: "h:mm A",
+          format: "HH:mm",
           i18n: "duplicate",
         }
       - {
@@ -255,6 +275,13 @@ collections:
           name: "location",
           widget: "string",
           i18n: "duplicate",
+        }
+      - {
+          label: "Meeting Link",
+          name: "meeting-link",
+          widget: "string",
+          i18n: "duplicate",
+          required: false,
         }
       - {
           label: "Description",
