@@ -1,8 +1,10 @@
 ---
+expiryDate: 2022-08-05
+startTime: 17:30
+finishTime: 19:30
 type: phd-thesis-defense
 title: "Zaman Kısıtlı Örüntü Eşleme: Teori ve Uygulamalar"
 speaker: Doğan Ulus
-expiryDate: 2022-11-05
 location: Zoom
 ---
 

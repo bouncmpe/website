@@ -3,6 +3,8 @@ type: phd-thesis-defense
 title: "Pattern Matching with Time: Theory and Applications"
 speaker: Doğan Ulus
 expiryDate: 2022-11-05
+startTime: 17:30
+finishTime: 19:30
 location: Zoom
 ---
 
