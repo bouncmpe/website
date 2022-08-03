@@ -21,14 +21,14 @@ menu:
       sections:
         - title: Öğretim Üyeleri
           links:
-            - name: Öğretim Üyeleri
-              url: people/faculty
-            - name: Emeritus Üyeler
-              url: people/faculty
-            - name: Yarı-Zamanlı Üyeler ve Öğretim Görevlileri
-              url: people/faculty
+            - name: Tam Zamanlı Öğretim Üyeleri
+              url: people/faculty/
+            - name: Emeritus Öğretim Üyeleri
+              url: people/faculty/#emeritus-members
+            - name: Yarı Zamanlı Üyeler ve Öğretim Görevlileri
+              url: people/faculty/#other-members
             - name: Önceki Öğretim Üyeleri
-              url: people/faculty
+              url: people/faculty/#former-members
 
         - title: Akademik Kadro
           links:

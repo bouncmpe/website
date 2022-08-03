@@ -21,16 +21,14 @@ menu:
       sections:
         - title: Faculty
           links:
-            - name: Faculty Members
-              url: people/faculty
+            - name: Full-Time Members
+              url: people/faculty/
             - name: Emeritus Members
-              url: people/faculty
-            - name: Instructors
-              url: people/faculty
-            - name: Part-time Members
-              url: people/faculty
+              url: people/faculty/#emeritus-members
+            - name: Other Members and Instructors
+              url: people/faculty/#other-members
             - name: Former Members
-              url: people/faculty
+              url: people/faculty/#former-members
 
         - title: Academic Staff
           links:
