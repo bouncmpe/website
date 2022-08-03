@@ -1,10 +1,11 @@
-# backend:
-#   name: github
-#   repo: bouncmpe/website-test
-#   branch: main
 backend:
-  name: git-gateway
-local_backend: true
+  name: github
+  repo: bouncmpe/website-test
+  branch: main
+
+# backend:
+#   name: git-gateway
+# local_backend: true
 
 logo_url: /images/logo.png
 
