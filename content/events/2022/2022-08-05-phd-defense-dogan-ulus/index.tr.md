@@ -1,5 +1,5 @@
 ---
-expiryDate: 2022-08-05
+expiryDate: 2022-11-05
 startTime: 17:30
 finishTime: 19:30
 type: phd-thesis-defense
