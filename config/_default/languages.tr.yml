@@ -2,6 +2,7 @@ languageName: Türkçe
 languageCode: tr
 weight: 1 # Order for language selection menu
 title: Bilgisayar Mühendisliği Bölümü | Boğaziçi Üniversitesi
+copyright: "Telif Hakkı © {year} Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi. Tüm Hakları Saklıdır."
 
 menu:
   top:

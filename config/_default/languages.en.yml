@@ -2,6 +2,7 @@ languageName: English
 languageCode: en
 weight: 2 # Order for language selection menu
 title: Department of Computer Engineering | Bogazici University
+copyright: "Copyright © {year} Department of Computer Engineering, Boğaziçi University. All rights reserved."
 
 menu:
   top:
