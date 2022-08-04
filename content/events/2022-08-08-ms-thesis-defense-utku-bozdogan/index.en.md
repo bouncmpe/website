@@ -1,6 +1,8 @@
 ---
 type: ms-thesis-defense
 title: Bidirectional multi-step prediction with affordances
+speaker: Utku Bozdoğan
+
 expiryDate: 2023-08-08
 startTime: 13:00
 finishTime: 14:30
