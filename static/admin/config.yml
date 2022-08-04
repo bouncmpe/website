@@ -11,6 +11,7 @@ logo_url: /images/logo.png
 
 media_folder: assets/images/uploads
 public_folder: /images/uploads
+search: false
 
 slug:
   encoding: "ascii"
@@ -25,8 +26,8 @@ collections:
   - name: "news"
     label: "Latest News"
     folder: "content/news"
-    slug: "{{date}}-news-{{title | lower}}"
-    path: "{{year}}/{{slug}}/index"
+    slug: "{{date | date('YYYY-MM-DD')}}-news-{{title | lower}}"
+    path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
     create: true
@@ -44,6 +45,13 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string", i18n: true }
       - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          i18n: true,
+          required: false,
+        }
+      - {
           label: "Publish Date",
           name: "date",
           widget: "datetime",
@@ -58,183 +66,59 @@ collections:
           widget: "image",
           allow_multiple: false,
           i18n: "duplicate",
-        }
-      - {
-          label: "Description",
-          name: "body",
-          widget: "markdown",
-          default: "",
-          i18n: true,
-        }
-
-  - name: "phd-defense"
-    label: "PhD Thesis Defense"
-    folder: "content/events"
-    slug: "{{expiryDate}}-phd-thesis-defense-{{speaker | lower}}"
-    path: "{{year}}/{{slug}}/index"
-    media_folder: ""
-    public_folder: ""
-    create: true
-    i18n: true
-    editor:
-      preview: false
-    filter: { field: "type", value: "phd-thesis-defense" }
-    fields:
-      - {
-          label: "Type",
-          name: "type",
-          widget: "hidden",
-          default: "phd-thesis-defense",
-          i18n: "duplicate",
-        }
-      - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
-      - {
-          label: "Speaker",
-          name: "speaker",
-          widget: "string",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Event Date",
-          name: "expiryDate",
-          widget: "datetime",
-          date_format: "DD MMMM YYYY",
-          time_format: false,
-          format: "YYYY-MM-DD",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Start Time",
-          name: "startTime",
-          widget: "datetime",
-          date_format: false,
-          time_format: "h:mm A",
-          format: "HH:mm",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Finish Time",
-          name: "finishTime",
-          widget: "datetime",
-          date_format: false,
-          time_format: "h:mm A",
-          format: "HH:mm",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Location",
-          name: "location",
-          widget: "string",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Meeting Link",
-          name: "meeting-link",
-          widget: "string",
-          i18n: "duplicate",
           required: false,
         }
       - {
-          label: "Abstract",
+          label: "Image Caption",
+          name: "image_caption",
+          widget: "string",
+          i18n: true,
+          required: false,
+        }
+      - {
+          label: "Body",
           name: "body",
           widget: "markdown",
           default: "",
           i18n: true,
         }
 
-  - name: "ms-thesis-defense"
-    label: "MS Thesis Defense"
+  - name: "event"
+    label: "Events"
+    label_singular: "Event"
     folder: "content/events"
-    path: "{{year}}/{{slug}}/index"
-    slug: "{{expiryDate}}-ms-thesis-defense-{{speaker | lower}}"
+    slug: "{{expiryDate | date('YYYY-MM-DD')}}-{{type}}-{{speaker | lower}}"
+    path: "{{slug}}/index"
     media_folder: ""
     public_folder: ""
     create: true
     i18n: true
     editor:
       preview: false
-    filter: { field: "type", value: "ms-thesis-defense" }
+    preview_path_date_field: "expiryDate"
+    sortable_fields: ["expiryDate", "speaker"]
+    view_filters:
+      - label: PhD
+        field: type
+        pattern: phd-thesis-defense
+      - label: MS
+        field: type
+        pattern: ms-thesis-defense
+      - label: Seminar
+        field: type
+        pattern: seminar
     fields:
       - {
           label: "Type",
           name: "type",
-          widget: "hidden",
+          widget: "select",
+          options:
+            [
+              { label: "MS Thesis Defense", value: "ms-thesis-defense" },
+              { label: "PhD Thesis Defense", value: "phd-thesis-defense" },
+              { label: "Seminar", value: "seminar" },
+            ],
           default: "ms-thesis-defense",
-          i18n: "duplicate",
-        }
-      - { label: "Thesis Title", name: "title", widget: "string", i18n: true }
-      - {
-          label: "Speaker",
-          name: "speaker",
-          widget: "string",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Event Date",
-          name: "expiryDate",
-          widget: "datetime",
-          date_format: "DD MMMM YYYY",
-          time_format: false,
-          format: "YYYY-MM-DD",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Start Time",
-          name: "startTime",
-          widget: "datetime",
-          date_format: false,
-          time_format: "h:mm A",
-          format: "HH:mm",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Finish Time",
-          name: "finishTime",
-          widget: "datetime",
-          date_format: false,
-          time_format: "h:mm A",
-          format: "HH:mm",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Location",
-          name: "location",
-          widget: "string",
-          i18n: "duplicate",
-        }
-      - {
-          label: "Meeting Link",
-          name: "meeting-link",
-          widget: "string",
-          i18n: "duplicate",
-          required: false,
-        }
-      - {
-          label: "Abstract",
-          name: "body",
-          widget: "markdown",
-          default: "",
-          i18n: true,
-        }
-
-  - name: "seminar"
-    label: "Seminar"
-    folder: "content/events"
-    slug: "{{expiryDate}}-seminar-{{speaker | lower}}"
-    path: "{{year}}/{{slug}}/index"
-    media_folder: ""
-    public_folder: ""
-    create: true
-    i18n: true
-    editor:
-      preview: false
-    filter: { field: "type", value: "seminar" }
-    fields:
-      - {
-          label: "Type",
-          name: "type",
-          widget: "hidden",
-          default: "seminar",
           i18n: "duplicate",
         }
       - { label: "Title", name: "title", widget: "string", i18n: true }
