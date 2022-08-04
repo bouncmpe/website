@@ -1,5 +1,5 @@
 ---
-type: seminar
+type: phd-thesis-defense
 title: Transfer Learning for Sign Language Recognition
 speaker: Ahmet Alp Kındıroğlu
 expiryDate: 2023-08-10
