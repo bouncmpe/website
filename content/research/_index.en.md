@@ -1,7 +1,3 @@
 ---
-title: Research
-menu:
-    main:
-        identifier: research
-        weight: 5
+title: Research at CMPE
 ---

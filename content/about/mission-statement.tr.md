@@ -1,3 +1,3 @@
 ---
-title: Misyon
+title: Amaçlar
 ---

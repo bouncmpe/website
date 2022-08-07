@@ -1,10 +1,5 @@
 ---
 title: Undergraduate Program
-menu:
-  main:
-    parent: undergraduate
-    name: Program Overview
-    weight: 1
 ---
 
 ## Overview
