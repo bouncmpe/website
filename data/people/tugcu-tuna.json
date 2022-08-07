@@ -1,24 +1,21 @@
 {
-   "categories": [
-      "faculty",
-      "former-ta"
-   ],
-   "email": "tugcu@boun.edu.tr",
-   "image": "image.png",
-   "interests": [],
-   "links": [
-      {
-         "icon": "home",
-         "identifier": "home",
-         "url": "https://example.org"
-      },
-      {
-         "icon": "github",
-         "identifier": "github",
-         "url": "https://github.com/bouncmpe"
-      }
-   ],
-   "name": "Tuna Tuğcu",
-   "position": "full-professor",
-   "type": "person"
+  "categories": ["faculty", "former-teaching-assistant"],
+  "email": "tugcu@boun.edu.tr",
+  "image": "image.png",
+  "interests": [],
+  "links": [
+    {
+      "icon": "home",
+      "identifier": "home",
+      "url": "https://example.org"
+    },
+    {
+      "icon": "github",
+      "identifier": "github",
+      "url": "https://github.com/bouncmpe"
+    }
+  ],
+  "name": "Tuna Tuğcu",
+  "position": "full-professor",
+  "type": "person"
 }

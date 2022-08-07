@@ -1,27 +1,22 @@
 {
-   "categories": [
-      "faculty",
-      "former-ta"
-   ],
-   "email": "arzucan.ozgur@boun.edu.tr",
-   "image": "image.png",
-   "interests": [],
-   "links": [
-      {
-         "icon": "home",
-         "identifier": "home",
-         "url": "https://example.org"
-      },
-      {
-         "icon": "github",
-         "identifier": "github",
-         "url": "https://github.com/bouncmpe"
-      }
-   ],
-   "name": "Arzucan Özgür",
-   "position": "associate-professor",
-   "roles": [
-      "senior-projects"
-   ],
-   "type": "person"
+  "categories": ["faculty", "former-teaching-assistant"],
+  "email": "arzucan.ozgur@boun.edu.tr",
+  "image": "image.png",
+  "interests": [],
+  "links": [
+    {
+      "icon": "home",
+      "identifier": "home",
+      "url": "https://example.org"
+    },
+    {
+      "icon": "github",
+      "identifier": "github",
+      "url": "https://github.com/bouncmpe"
+    }
+  ],
+  "name": "Arzucan Özgür",
+  "position": "associate-professor",
+  "roles": ["senior-projects"],
+  "type": "person"
 }

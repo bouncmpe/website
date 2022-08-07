@@ -1,27 +1,22 @@
 {
-   "categories": [
-      "faculty",
-      "former-ta"
-   ],
-   "email": "berk.gokberk@boun.edu.tr",
-   "image": "image.png",
-   "interests": [],
-   "links": [
-      {
-         "icon": "home",
-         "identifier": "home",
-         "url": "https://example.org"
-      },
-      {
-         "icon": "github",
-         "identifier": "github",
-         "url": "https://github.com/bouncmpe"
-      }
-   ],
-   "name": "Berk Gökberk",
-   "position": "assistant-professor",
-   "roles": [
-      "abet"
-   ],
-   "type": "person"
+  "categories": ["faculty", "former-teaching-assistant"],
+  "email": "berk.gokberk@boun.edu.tr",
+  "image": "image.png",
+  "interests": [],
+  "links": [
+    {
+      "icon": "home",
+      "identifier": "home",
+      "url": "https://example.org"
+    },
+    {
+      "icon": "github",
+      "identifier": "github",
+      "url": "https://github.com/bouncmpe"
+    }
+  ],
+  "name": "Berk Gökberk",
+  "position": "assistant-professor",
+  "roles": ["abet"],
+  "type": "person"
 }
