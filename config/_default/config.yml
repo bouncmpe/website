@@ -5,8 +5,10 @@ defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
 
 timeZone: Europe/Istanbul
+paginate: 25
 
 params:
+  identifier: "`~/bouncmpe`"
   email: contact@cmpe.boun.edu.tr
   favicon: "images/logo.png"
   logo: "/images/logo.png"

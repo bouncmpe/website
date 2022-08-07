@@ -1,86 +1,423 @@
+title: Bilgisayar Mühendisliği Bölümü | Boğaziçi Üniversitesi
+copyright: "Telif Hakkı © {year} Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi. Bazı Hakları Saklıdır."
+
 languageName: Türkçe
 languageCode: tr
 weight: 1 # Order for language selection menu
-title: Bilgisayar Mühendisliği Bölümü | Boğaziçi Üniversitesi
-copyright: "Telif Hakkı © {year} Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi. Tüm Hakları Saklıdır."
+
+params:
+  logo_text_main: Bilgisayar Mühendisliği
+  logo_text_top: Boğaziçi Üniversitesi
+  powered_by: Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com) ile tasarlandı
 
 menu:
   top:
-    - identifier: news
-      name: Haberler
-      url: news
-      weight: 100
-    - identifier: events
-      name: Etkinlikler
-      url: events
-      weight: 200
-    - identifier: courses
-      name: Dersler
+    - name: Rehber
+      url: "https://bouncmpedocs.netlify.app"
+      weight: 10
+    - name: Dersler
       url: courses
+      weight: 20
+    - name: L-Araştırma
+      url: "https://bouncmpe-capstone.netlify.app"
+      weight: 30
+    - name: Bağışlar
+      url: donations
+      weight: 40
+
+  main:
+    # About
+    - identifier: about
+      name: Hakkında
+      url: about
+      weight: 100
+
+    # About > Department
+    - name: Bölüm Hakkında
+      identifier: department
+      parent: about
+      url: about
+      weight: 110
+
+    - name: Genel Bakış
+      parent: department
+      url: about
+      weight: 111
+    - name: Amaçlar
+      parent: department
+      url: about/mission-statement
+      weight: 112
+    - name: Yönetim ve Komisyonlar
+      parent: department
+      url: about/administration
+      weight: 113
+    - name: Endüstri Danışma Kurulu
+      parent: department
+      url: about/industry-advisory-board
+      weight: 119
+
+    # About > History
+    - name: Tarihçe
+      identifier: history
+      parent: about
+      url: about/history
+      weight: 120
+
+    - name: Boğaziçi Üniversitesi
+      identifier: history-bogazici-university
+      parent: history
+      url: about/history/#bogazici-university
+      weight: 121
+    - name: Boğaziçi Üniversitesi'nde Bilgisayar Bilimi ve Mühendisliği
+      identifier: history-cmpe
+      parent: history
+      url: about/history/#cmpe-at-boun
+      weight: 122
+    - name: Zaman Akışı
+      identifier: history-milestones
+      parent: history
+      url: about/history/#milestones
+      weight: 123
+
+    # About > Statistics
+    - name: İstatistikler
+      identifier: statistics
+      parent: about
+      url: about/statistics
+      weight: 130
+
+    - name: Kayıt Verileri
+      identifier: enrollment-data
+      parent: statistics
+      url: about/statistics/#enrollment-data
+      weight: 131
+    - name: Mezuniyet Verileri
+      identifier: graduation-data
+      parent: statistics
+      url: about/statistics/#graduation-data
+      weight: 132
+
+    # About > Principles
+    - name: İlkeler
+      identifier: principles
+      parent: about
+      # url: about/principles
+      weight: 140
+
+    - name: Akademik Etik
+      parent: principles
+      url: about/academic-integrity
+      weight: 141
+    - name: Cinsiyet Eşitliği
+      parent: principles
+      url: about/gender-equality
+      weight: 142
+    - name: Yönetişim
+      parent: principles
+      url: about/governance
+      weight: 143
+
+    # People
+    - identifier: people
+      name: Kişiler
+      url: people
+      weight: 200
+
+    # People > Faculty
+    - identifier: faculty
+      name: Öğretim Üyeleri
+      parent: people
+      url: people/faculty
+      weight: 210
+
+    - name: Öğretim Üyeleri
+      parent: faculty
+      url: people/faculty/#fulltime-members
+      weight: 211
+    - name: Emeritus Öğretim Üyeleri
+      parent: faculty
+      url: people/faculty/#emeritus-members
+      weight: 212
+    - name: Diğer Öğretim Üyeleri
+      parent: faculty
+      url: people/faculty/#other-members
+      weight: 213
+    - name: Önceki Öğretim Üyeleri
+      parent: faculty
+      url: people/faculty/#former-members
+      weight: 214
+
+      # People > Academic Staff
+    - identifier: academic-staff
+      name: Akademik Personel
+      parent: people
+      url: people/academic-staff
+      weight: 220
+
+    - name: Ders Asistanları
+      parent: academic-staff
+      url: people/academic-staff/#teaching-assistants
+      weight: 221
+    - name: Araştırma Personeli
+      parent: academic-staff
+      url: people/academic-staff/#research-personnel
+      weight: 222
+    - name: Önceki Asistanlar
+      parent: academic-staff
+      url: people/academic-staff/#former-teaching-assistants
+      weight: 223
+    - name: Önceki Araştırma Personeli
+      parent: academic-staff
+      url: people/academic-staff/#former-research-personnel
+      weight: 224
+
+      # People > Support Staff
+    - identifier: support
+      name: Yardımcı Personel
+      parent: people
+      url: people/support
+      weight: 230
+
+    - name: İdari Personel
+      parent: support
+      url: people/support/#administrative-staff
+      weight: 231
+    - name: Teknik Personel
+      parent: support
+      url: people/support/#technical-staff
+      weight: 232
+    - name: Bina Personeli
+      parent: support
+      url: people/support/#building-staff
+      weight: 233
+    - name: Önceki Yardımcı Personel
+      parent: support
+      url: people/support/#former-support-staff
+      weight: 234
+
+      # People > Students
+    - identifier: students
+      name: Öğrenciler
+      parent: people
+      url: people/students
+      weight: 240
+
+    - name: Öğrenci Asistanlar
+      parent: students
+      url: people/students/#student-assistants
+      weight: 241
+    - name: Öğrenci Akranlar
+      parent: students
+      url: people/students/#student-assistants
+      weight: 242
+
+    # Undergradute Program
+    - name: Lisans Programı
+      identifier: undergraduate
+      url: undergraduate
       weight: 300
-    - identifier: docs
-      name: Mevzuat
-      url: https://bouncmpedocs.netlify.app
+
+    # Undergradute Program > Overview
+    - name: Genel Bakış
+      parent: undergraduate
+      identifier: undergraduate-overview
+      url: undergraduate/#overview
+      weight: 310
+      # params:
+      #   image_path: /images/person.png
+    - name: Eğitim Hedefleri
+      parent: undergraduate-overview
+      url: undergraduate/#objectives
+      weight: 312
+    - name: Öğrenci Kazanımları
+      parent: undergraduate-overview
+      url: undergraduate/#student-outcomes
+      weight: 313
+    - name: Akreditasyon
+      parent: undergraduate-overview
+      url: undergraduate/#accreditation
+      weight: 314
+
+    # Undergradute Program > Curriculum
+    - name: Eğitim
+      parent: undergraduate
+      identifier: undergraduate-studies
+      url: undergraduate/curriculum
+      weight: 320
+
+    - name: Ders Çizelgesi
+      parent: undergraduate-studies
+      url: undergraduate/curriculum
+      weight: 321
+    - name: Ana Dersler
+      parent: undergraduate-studies
+      url: undergraduate/courses/#core-courses
+      weight: 322
+    - name: Seçmeli Dersler
+      parent: undergraduate-studies
+      url: undergraduate/courses/#elective-courses
+      weight: 323
+    - name: Yaz Stajı
+      parent: undergraduate-studies
+      url: undergraduate/training
+      weight: 324
+    - name: Bitirme Projeleri
+      parent: undergraduate-studies
+      url: undergraduate/senior-projects
+      weight: 325
+
+    # Undergradute Program > Complementary
+    - name: Ortak Eğitim
+      parent: undergraduate
+      identifier: undergraduate-comp
+      weight: 330
+
+    - name: Çift Anadal Programı
+      parent: undergraduate-comp
+      url: undergraduate/double-major-program
+      weight: 331
+    - name: Yandal Programı
+      parent: undergraduate-comp
+      url: undergraduate/minor-degree-program
+      weight: 332
+    - name: Değişim Programları
+      parent: undergraduate-comp
+      url: undergraduate/exchange-programs
+      weight: 333
+    - name: Dışarıdan Geçiş Başvuruları
+      parent: undergraduate-comp
+      url: undergraduate/transfer
+      weight: 334
+
+    # Undergradute Program > Resources
+    - name: Kaynaklar
+      parent: undergraduate
+      identifier: undergraduate-resources
+      url: undergraduate/resources
+      weight: 340
+
+    # Graduate Program
+    - name: Lisansüstü Programları
+      identifier: graduate
+      url: graduate
       weight: 400
-    - identifier: cmpe492
-      name: 491/492
-      url: https://bouncmpe-capstone.netlify.app
+
+    # Research
+    - name: Araştırma
+      identifier: research
+      url: research
       weight: 500
-    - identifier: donate
-      name: Bağış Yapın
-      url: donate
-      weight: 1000
 
-params:
-  about: " Translation "
-  logo_text_main: Bilgisayar Mühendisliği
-  logo_text_top: Boğaziçi Üniversitesi
-  powered_by_text: >-
-    Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com) ile tasarlandı
+    # Contact
+    - name: İletişim
+      url: contact
+      weight: 600
+
   footer:
-    sections:
-      - title: Boğaziçi Üniversitesi
-        links:
-          - title: Anasayfa
-            url: http://www.boun.edu.tr
-          - title: Mühendislik Fakültesi
-            url: http://www.eng.boun.edu.tr/
-          - title: Fen Bilimleri Enstitüsü
-            url: http://www.fbe.boun.edu.tr
-          - title: Kütüphane
-            url: https://www.library.boun.edu.tr/
-          - title: Bilişim Hizmetleri
-            url: https://cc.boun.edu.tr/
-          - title: Kampüs Haritası
-            url: https://harita.boun.edu.tr/
+    #
+    - name: Boğaziçi Üniversitesi
+      identifier: footer-university
+      weight: 1100
 
-      - title: Eğitim & Öğretim
-        links:
-          - title: Akademik Takvim
-            url: https://akademiktakvim.boun.edu.tr/
-          - title: Kayıt İşleri
-            url: https://registration.boun.edu.tr/
-          - title: Moodle
-            url: https://moodle.boun.edu.tr/
-          - title: Uzaktan Öğrenme
-            url: https://distancelearning.boun.edu.tr/
-          - title: Uluslararası İlişkiler Ofisi
-            url: http://intl.boun.edu.tr/
+    - name: Anasayfa
+      parent: footer-university
+      url: http://www.boun.edu.tr
+      weight: 1101
+    - name: Mühendislik Fakültesi
+      parent: footer-university
+      url: http://www.eng.boun.edu.tr/
+      weight: 1102
+    - name: Fen Bilimleri Enstitüsü
+      parent: footer-university
+      url: http://www.fbe.boun.edu.tr
+      weight: 1103
+    - name: Kütüphane
+      parent: footer-university
+      url: https://www.library.boun.edu.tr/
+      weight: 1104
+    - name: Bilişim Hizmetleri
+      parent: footer-university
+      url: https://cc.boun.edu.tr/
+      weight: 1105
+    - name: Kampüs Haritası
+      parent: footer-university
+      url: https://harita.boun.edu.tr/
+      weight: 1106
 
-      - title: Kampüs Yaşamı
-        links:
-          - title: Etkinlik Takvimi
-            url: http://takvim.boun.edu.tr/bu/
-          - title: Müzik Kampüste
-            url: https://klasikmuzik.boun.edu.tr/
-          - title: Sinema Kampüste
-            url: https://sinebu.boun.edu.tr/
-          - title: Kariyer Merkezi
-            url: https://kariyermerkezi.boun.edu.tr/
-          - title: Bilişim Kulübü
-            url: https://www.compec.org/
-          - title: Sanal Kampüs Turu
-            url: http://sanaltur.boun.edu.tr/
+    #
+    - name: Eğitim & Öğretim
+      identifier: footer-education
+      weight: 1200
 
-      - title: Diğer Bağlantılar
-        links: []
+    - name: Akademik Takvim
+      parent: footer-education
+      url: https://akademiktakvim.boun.edu.tr/
+      weight: 1201
+    - name: Kayıt İşleri
+      parent: footer-education
+      url: https://registration.boun.edu.tr/
+      weight: 1202
+    - name: Moodle
+      parent: footer-education
+      url: https://moodle.boun.edu.tr/
+      weight: 1203
+    - name: Uzaktan Öğrenme
+      parent: footer-education
+      url: https://distancelearning.boun.edu.tr/
+      weight: 1204
+    - name: Uluslararası İlişkiler Ofisi
+      parent: footer-education
+      url: http://intl.boun.edu.tr/
+      weight: 1205
+
+    #
+    - name: Kampüs Yaşamı
+      identifier: footer-campus
+      weight: 1300
+
+    - name: Etkinlik Takvimi
+      parent: footer-campus
+      url: http://takvim.boun.edu.tr/bu/
+      weight: 1301
+    - name: Müzik Kampüste
+      parent: footer-campus
+      url: https://klasikmuzik.boun.edu.tr/
+      weight: 1302
+    - name: Sinema Kampüste
+      parent: footer-campus
+      url: https://sinebu.boun.edu.tr/
+      weight: 1303
+    - name: Kariyer Merkezi
+      parent: footer-campus
+      url: https://kariyermerkezi.boun.edu.tr/
+      weight: 1304
+    - name: Bilişim Kulübü
+      parent: footer-campus
+      url: https://www.compec.org/
+      weight: 1305
+    - name: Sanal Kampüs Turu
+      parent: footer-campus
+      url: http://sanaltur.boun.edu.tr/
+      weight: 1306
+
+    #
+    - name: Diğer Bağlantılar
+      identifier: footer-other
+      weight: 1400
+
+    - name: Haber Arşivi
+      parent: footer-other
+      url: news
+      weight: 1401
+    - name: Etkinlik Arşivi
+      parent: footer-other
+      url: events
+      weight: 1402
+    - name: Video Arşivi
+      parent: footer-other
+      url: videos
+      weight: 1403
+    - name: Website Yönetim
+      parent: footer-other
+      url: /admin
+      weight: 1499

@@ -1,85 +1,419 @@
+title: Department of Computer Engineering | Bogazici University
+copyright: "Copyright © {year} Department of Computer Engineering, Boğaziçi University. Some rights reserved."
+
 languageName: English
 languageCode: en
 weight: 2 # Order for language selection menu
-title: Department of Computer Engineering | Bogazici University
-copyright: "Copyright © {year} Department of Computer Engineering, Boğaziçi University. All rights reserved."
-
-menu:
-  top:
-    - identifier: news
-      name: News
-      url: news
-      weight: 100
-    - identifier: events
-      name: Events
-      url: events
-      weight: 200
-    - identifier: courses
-      name: Courses
-      url: courses
-      weight: 300
-    - identifier: docs
-      name: Docs
-      url: https://bouncmpedocs.netlify.app
-      weight: 400
-    - identifier: cmpe492
-      name: 491/492
-      url: https://bouncmpe-capstone.netlify.app
-      weight: 500
-    - identifier: donate
-      name: Donate
-      url: donate
-      weight: 1000
 
 params:
   logo_text_main: Computer Engineering
   logo_text_top: "Boğaziçi University, Department of"
-  powered_by_text: >-
-    Powered by [Hugo](https://gohugo.io) and [Bootstrap](https://getbootstrap.com)
+  powered_by: Powered by [Hugo](https://gohugo.io) and [Bootstrap](https://getbootstrap.com)
+
+menu:
+  top:
+    - name: Docs
+      url: "https://bouncmpedocs.netlify.app"
+      weight: 10
+    - name: Courses
+      url: courses
+      weight: 20
+    - name: U-Research
+      url: "https://bouncmpe-capstone.netlify.app"
+      weight: 30
+    - name: Donations
+      url: donations
+      weight: 40
+
+  main:
+    # About
+    - identifier: about
+      name: About
+      url: about
+      weight: 100
+
+    # About > Department
+    - name: Department
+      identifier: department
+      parent: about
+      url: about
+      weight: 110
+
+    - name: Overview
+      parent: department
+      url: about
+      weight: 111
+    - name: Mission Statements
+      parent: department
+      url: about/mission-statement
+      weight: 112
+    - name: Administrative Roles
+      parent: department
+      url: about/administration
+      weight: 113
+    - name: Industry Advisory Board
+      parent: department
+      url: about/industry-advisory-board
+      weight: 119
+
+    # About > History
+    - name: History
+      identifier: history
+      parent: about
+      url: about/history
+      weight: 120
+
+    - name: Boğaziçi University
+      identifier: history-bogazici-university
+      parent: history
+      url: about/history/#bogazici-university
+      weight: 121
+    - name: Computer Science and Engineering at Boğaziçi University
+      identifier: history-cmpe
+      parent: history
+      url: about/history/#cmpe-at-boun
+      weight: 122
+    - name: Department Milestones
+      identifier: history-milestones
+      parent: history
+      url: about/history/#milestones
+      weight: 123
+
+    # About > Statistics
+    - name: Figures and Statistics
+      identifier: statistics
+      parent: about
+      url: about/statistics
+      weight: 130
+
+    - name: Enrollment Data
+      identifier: enrollment-data
+      parent: statistics
+      url: about/statistics/#enrollment-data
+      weight: 131
+    - name: Graduation Data
+      identifier: graduation-data
+      parent: statistics
+      url: about/statistics/#graduation-data
+      weight: 132
+
+    # About > Principles
+    - name: Principles
+      identifier: principles
+      parent: about
+      # url: about/principles
+      weight: 140
+
+    - name: Academic Integrity
+      parent: principles
+      url: about/academic-integrity
+      weight: 141
+    - name: Gender Equality
+      parent: principles
+      url: about/gender-equality
+      weight: 142
+    - name: Governance
+      parent: principles
+      url: about/governance
+      weight: 143
+
+    # People
+    - identifier: people
+      name: People
+      url: people
+      weight: 200
+
+    # People > Faculty
+    - identifier: faculty
+      name: Faculty
+      parent: people
+      url: people/faculty
+      weight: 210
+
+    - name: Full-time Members
+      parent: faculty
+      url: people/faculty/#fulltime-members
+      weight: 211
+    - name: Emeritus Members
+      parent: faculty
+      url: people/faculty/#emeritus-members
+      weight: 212
+    - name: Other Members
+      parent: faculty
+      url: people/faculty/#other-members
+      weight: 213
+    - name: Former Members
+      parent: faculty
+      url: people/faculty/#former-members
+      weight: 214
+
+      # People > Academic Staff
+    - identifier: academic-staff
+      name: Academic Staff
+      parent: people
+      url: people/academic-staff
+      weight: 220
+
+    - name: Teaching Assistants
+      parent: academic-staff
+      url: people/academic-staff/#teaching-assistants
+      weight: 221
+    - name: Research Personnel
+      parent: academic-staff
+      url: people/academic-staff/#research-personnel
+      weight: 222
+    - name: Former Teaching Assistants
+      parent: academic-staff
+      url: people/academic-staff/#former-teaching-assistants
+      weight: 223
+    - name: Former Research Personnel
+      parent: academic-staff
+      url: people/academic-staff/#former-research-personnel
+      weight: 224
+
+      # People > Support Staff
+    - identifier: support
+      name: Support Staff
+      parent: people
+      url: people/support
+      weight: 230
+
+    - name: Administrative Staff
+      parent: support
+      url: people/support/#administrative-staff
+      weight: 231
+    - name: Technical Staff
+      parent: support
+      url: people/support/#technical-staff
+      weight: 232
+    - name: Building Staff
+      parent: support
+      url: people/support/#building-staff
+      weight: 233
+    - name: Former Support Staff
+      parent: support
+      url: people/support/#former-support-staff
+      weight: 234
+
+      # People > Students
+    - identifier: students
+      name: Students
+      parent: people
+      url: people/students
+      weight: 240
+
+    - name: Student Assistants
+      parent: students
+      url: people/students/#student-assistants
+      weight: 241
+    - name: Student Peers
+      parent: students
+      url: people/students/#student-assistants
+      weight: 242
+
+    # Undergradute Program
+    - name: Undergraduate Program
+      identifier: undergraduate
+      url: undergraduate
+      weight: 300
+
+    # Undergradute Program > Overview
+    - name: Overview
+      parent: undergraduate
+      identifier: undergraduate-overview
+      url: undergraduate/#overview
+      weight: 310
+      # params:
+      #   image_path: /images/person.png
+    - name: Educational Objectives
+      parent: undergraduate-overview
+      url: undergraduate/#objectives
+      weight: 312
+    - name: Student Outcomes
+      parent: undergraduate-overview
+      url: undergraduate/#student-outcomes
+      weight: 313
+    - name: Accreditation
+      parent: undergraduate-overview
+      url: undergraduate/#accreditation
+      weight: 314
+
+    # Undergradute Program > Curriculum
+    - name: Studies
+      parent: undergraduate
+      identifier: undergraduate-studies
+      url: undergraduate/curriculum
+      weight: 320
+
+    - name: Curriculum
+      parent: undergraduate-studies
+      url: undergraduate/curriculum
+      weight: 321
+    - name: Core Courses
+      parent: undergraduate-studies
+      url: undergraduate/courses/#core-courses
+      weight: 322
+    - name: Elective Courses
+      parent: undergraduate-studies
+      url: undergraduate/courses/#elective-courses
+      weight: 323
+    - name: Summer Training
+      parent: undergraduate-studies
+      url: undergraduate/summer-training
+      weight: 324
+    - name: Senior Projects
+      parent: undergraduate-studies
+      url: undergraduate/senior-projects
+      weight: 325
+
+    # Undergradute Program > Complementary
+    - name: Joint Studies
+      parent: undergraduate
+      identifier: undergraduate-comp
+      weight: 330
+
+    - name: Double Major Program
+      parent: undergraduate-comp
+      url: undergraduate/double-major-program
+      weight: 331
+    - name: Minor Degree Program
+      parent: undergraduate-comp
+      url: undergraduate/minor-degree-program
+      weight: 332
+    - name: Exchange Programs
+      parent: undergraduate-comp
+      url: undergraduate/exchange-programs
+      weight: 333
+    - name: Transfer Applications
+      parent: undergraduate-comp
+      url: undergraduate/transfer
+      weight: 334
+
+    # Undergradute Program > Resources
+    - name: Resources
+      parent: undergraduate
+      identifier: undergraduate-resources
+      url: undergraduate/resources
+      weight: 340
+
+    # Graduate Program
+    - name: Graduate Programs
+      identifier: graduate
+      url: graduate
+      weight: 400
+
+    # Research
+    - name: Research
+      identifier: research
+      url: research
+      weight: 500
+
+    # Contact
+    - name: Contact
+      url: contact
+      weight: 600
+
   footer:
-    sections:
-      - title: Boğaziçi University
-        links:
-          - title: Homepage
-            url: http://www.boun.edu.tr
-          - title: Faculty of Engineering
-            url: http://www.eng.boun.edu.tr/
-          - title: Institute of Science and Engineering
-            url: http://www.fbe.boun.edu.tr
-          - title: University Library
-            url: https://www.library.boun.edu.tr/
-          - title: IT Services
-            url: https://cc.boun.edu.tr/
-          - title: Campus Map
-            url: https://harita.boun.edu.tr/
+    - name: Boğaziçi University
+      identifier: footer-university
+      weight: 1100
 
-      - title: Academics
-        links:
-          - title: Academic Calendar
-            url: https://akademiktakvim.boun.edu.tr/
-          - title: Registration (BUIS)
-            url: https://registration.boun.edu.tr/
-          - title: Moodle
-            url: https://moodle.boun.edu.tr/
-          - title: Distance Learning
-            url: https://distancelearning.boun.edu.tr/
-          - title: International Relations
-            url: http://intl.boun.edu.tr/
+    - name: University Homepage
+      parent: footer-university
+      url: http://www.boun.edu.tr
+      weight: 1101
+    - name: Faculty of Engineering
+      parent: footer-university
+      url: http://www.eng.boun.edu.tr/
+      weight: 1102
+    - name: Institute of Science and Engineering
+      parent: footer-university
+      url: http://www.fbe.boun.edu.tr
+      weight: 1103
+    - name: University Library
+      parent: footer-university
+      url: https://www.library.boun.edu.tr/
+      weight: 1104
+    - name: IT Services
+      parent: footer-university
+      url: https://cc.boun.edu.tr/
+      weight: 1105
+    - name: Campus Map
+      parent: footer-university
+      url: https://map.boun.edu.tr/
+      weight: 1106
 
-      - title: Campus Life
-        links:
-          - title: Events Calendar
-            url: http://takvim.boun.edu.tr/bu/
-          - title: Music at Campus
-            url: https://klasikmuzik.boun.edu.tr/
-          - title: Cinema at Campus
-            url: https://sinebu.boun.edu.tr/
-          - title: Career Center
-            url: https://kariyermerkezi.boun.edu.tr/
-          - title: Student IT Club
-            url: https://www.compec.org/
-          - title: Virtual Campus Tour
-            url: http://sanaltur.boun.edu.tr/
+    - name: Academics
+      identifier: footer-education
+      weight: 1200
 
-      - title: Other Links
-        links: []
+    - name: Academic Calendar
+      parent: footer-education
+      url: https://akademiktakvim.boun.edu.tr/
+      weight: 1201
+    - name: Registration System (BUIS)
+      parent: footer-education
+      url: https://registration.boun.edu.tr/
+      weight: 1202
+    - name: Moodle LMS
+      parent: footer-education
+      url: https://moodle.boun.edu.tr/
+      weight: 1203
+    - name: Distance Learning
+      parent: footer-education
+      url: https://distancelearning.boun.edu.tr/
+      weight: 1204
+    - name: International Relations Office
+      parent: footer-education
+      url: http://intl.boun.edu.tr/
+      weight: 1204
+
+    - name: Campus Life
+      identifier: footer-campus
+      weight: 1300
+
+    - name: Events Calendar
+      parent: footer-campus
+      url: http://takvim.boun.edu.tr/bu/
+      weight: 1301
+    - name: Music at Campus
+      parent: footer-campus
+      url: https://klasikmuzik.boun.edu.tr/
+      weight: 1302
+    - name: Cinema at Campus
+      parent: footer-campus
+      url: https://sinebu.boun.edu.tr/
+      weight: 1303
+    - name: Career Center
+      parent: footer-campus
+      url: https://kariyermerkezi.boun.edu.tr/
+      weight: 1304
+    - name: Student IT Club
+      parent: footer-campus
+      url: https://www.compec.org/
+      weight: 1305
+    - name: Virtual Campus Tour
+      parent: footer-campus
+      url: http://sanaltur.boun.edu.tr/
+      weight: 1306
+
+    - name: Other Links
+      identifier: footer-other
+      weight: 1400
+
+    - name: News Archieve
+      parent: footer-other
+      url: news
+      weight: 1401
+    - name: Event Archieve
+      parent: footer-other
+      url: events
+      weight: 1402
+    - name: Video Archieve
+      parent: footer-other
+      url: videos
+      weight: 1403
+    - name: Website Admin
+      parent: footer-other
+      url: /admin
+      weight: 1499
