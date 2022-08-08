@@ -1,8 +1,13 @@
 {
-    "name": "Hugo",
-    "dockerFile": "../Dockerfile",
-	"remoteUser": "bouncmpe",
-	"extensions": [
-		"esbenp.prettier-vscode"
-	]
+  "name": "Hugo",
+  "dockerFile": "../Dockerfile",
+  "remoteUser": "bouncmpe",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+      },
+      "extensions": ["esbenp.prettier-vscode"]
+    }
+  }
 }

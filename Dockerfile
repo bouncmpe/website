@@ -1,4 +1,4 @@
-FROM peaceiris/hugo:latest-mod
+FROM peaceiris/hugo:v0.101.0-full
 
 ARG USER=bouncmpe
 ENV HOME /home/$USER
