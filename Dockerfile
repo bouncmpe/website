@@ -3,7 +3,7 @@ FROM peaceiris/hugo:latest-mod
 ARG USER=bouncmpe
 ENV HOME /home/$USER
 
-RUN apk add --update sudo
+RUN apk add --update sudo openssh
 
 RUN adduser -D $USER \
     && echo "$USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$USER \
