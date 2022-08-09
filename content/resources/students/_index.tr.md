@@ -1,4 +1,3 @@
 ---
-title: Öğrenciler 
+title: Öğrenciler
 ---
- 

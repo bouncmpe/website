@@ -1,24 +1,21 @@
 {
-   "categories": [
-      "faculty",
-      "former-postdoc"
-   ],
-   "email": "ozgovde@boun.edu.tr",
-   "image": "image.png",
-   "interests": [],
-   "links": [
-      {
-         "icon": "home",
-         "identifier": "home",
-         "url": "https://example.org"
-      },
-      {
-         "icon": "github",
-         "identifier": "github",
-         "url": "https://github.com/bouncmpe"
-      }
-   ],
-   "name": "Atay Özgövde",
-   "position": "assistant-professor",
-   "type": "person"
+  "categories": ["faculty", "former-postdoc"],
+  "email": "ozgovde@boun.edu.tr",
+  "image": "image.png",
+  "interests": [],
+  "links": [
+    {
+      "icon": "home",
+      "identifier": "home",
+      "url": "https://example.org"
+    },
+    {
+      "icon": "github",
+      "identifier": "github",
+      "url": "https://github.com/bouncmpe"
+    }
+  ],
+  "name": "Atay Özgövde",
+  "position": "assistant-professor",
+  "type": "person"
 }

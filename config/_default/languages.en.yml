@@ -1,5 +1,7 @@
 title: Department of Computer Engineering | Bogazici University
-copyright: "Copyright © {year} Department of Computer Engineering, Boğaziçi University. Some rights reserved."
+copyright:
+  "Copyright © {year} Department of Computer Engineering, Boğaziçi University.
+  Some rights reserved."
 
 languageName: English
 languageCode: en
@@ -8,7 +10,9 @@ weight: 2 # Order for language selection menu
 params:
   logo_text_main: Computer Engineering
   logo_text_top: "Boğaziçi University, Department of"
-  powered_by: Powered by [Hugo](https://gohugo.io) and [Bootstrap](https://getbootstrap.com)
+  powered_by:
+    Powered by [Hugo](https://gohugo.io) and
+    [Bootstrap](https://getbootstrap.com)
 
 menu:
   top:

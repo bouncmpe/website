@@ -1,26 +1,22 @@
 {
-   "categories": [
-      "faculty"
-   ],
-   "email": "emre.ugur@boun.edu.tr",
-   "image": "image.png",
-   "interests": [],
-   "links": [
-      {
-         "icon": "home",
-         "identifier": "home",
-         "url": "https://example.org"
-      },
-      {
-         "icon": "github",
-         "identifier": "github",
-         "url": "https://github.com/bouncmpe"
-      }
-   ],
-   "name": "Emre Uğur",
-   "position": "associate-professor",
-   "roles": [
-      "vice-chair"
-   ],
-   "type": "person"
+  "categories": ["faculty"],
+  "email": "emre.ugur@boun.edu.tr",
+  "image": "image.png",
+  "interests": [],
+  "links": [
+    {
+      "icon": "home",
+      "identifier": "home",
+      "url": "https://example.org"
+    },
+    {
+      "icon": "github",
+      "identifier": "github",
+      "url": "https://github.com/bouncmpe"
+    }
+  ],
+  "name": "Emre Uğur",
+  "position": "associate-professor",
+  "roles": ["vice-chair"],
+  "type": "person"
 }

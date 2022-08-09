@@ -1,5 +1,7 @@
 baseURL: "https://bouncmpe.netlify.app"
-copyright: "Copyright © {year} Department of Computer Engineering, Boğaziçi University. All rights reserved."
+copyright:
+  "Copyright © {year} Department of Computer Engineering, Boğaziçi University.
+  All rights reserved."
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false

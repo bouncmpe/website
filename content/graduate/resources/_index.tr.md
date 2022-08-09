@@ -1,7 +1,7 @@
 ---
 title: Lisansüstü Dersleri
 menu:
-    main:
-        parent: graduate
-        weight: 4
+  main:
+    parent: graduate
+    weight: 4
 ---

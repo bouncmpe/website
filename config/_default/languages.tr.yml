@@ -1,5 +1,7 @@
 title: Bilgisayar Mühendisliği Bölümü | Boğaziçi Üniversitesi
-copyright: "Telif Hakkı © {year} Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi. Bazı Hakları Saklıdır."
+copyright:
+  "Telif Hakkı © {year} Bilgisayar Mühendisliği Bölümü, Boğaziçi Üniversitesi.
+  Bazı Hakları Saklıdır."
 
 languageName: Türkçe
 languageCode: tr
@@ -8,7 +10,9 @@ weight: 1 # Order for language selection menu
 params:
   logo_text_main: Bilgisayar Mühendisliği
   logo_text_top: Boğaziçi Üniversitesi
-  powered_by: Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com) ile tasarlandı
+  powered_by:
+    Bu site [Hugo](https://gohugo.io) ve [Bootstrap](https://getbootstrap.com)
+    ile tasarlandı
 
 menu:
   top:
