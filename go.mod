@@ -1,4 +1,4 @@
-module github.com/bouncmpe/website-test
+module github.com/bouncmpe/website
 
 go 1.18
 
