@@ -4,7 +4,7 @@ Thıs ıs the content repository for the department website of Computer
 Engineering at Boğaziçi University.
 
 Currently the latest version of the website is served at
-[https://bouncmpe.netlify.app](https://bouncmpe.netlify.app) for testing
+[https://bouncmpe.github.io/website/](https://bouncmpe.github.io/website/) for testing
 purposes.
 
 ## Run the website locally
