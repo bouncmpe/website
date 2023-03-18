@@ -1,14 +1,17 @@
-FROM peaceiris/hugo:v0.101.0-full
+FROM peaceiris/hugo:v0.111.3-full
 
 ARG USER=bouncmpe
-ENV HOME /home/$USER
 
-RUN apk add --update sudo openssh gnupg
-RUN apk add --update python3 py3-pip
-
-RUN adduser -D $USER \
-    && echo "$USER ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/$USER \
-    && chmod 0440 /etc/sudoers.d/$USER
+RUN : \
+    && apt-get update \
+    && apt-get install -y --no-install-recommends \
+        sudo openssh-client gnupg \
+        python3 python3-pip \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/* \
+    && adduser $USER \
+    && usermod -aG sudo $USER \
+    && :
 
 USER $USER
 WORKDIR $HOME
