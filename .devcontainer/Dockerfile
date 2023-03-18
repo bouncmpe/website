@@ -2,9 +2,6 @@ FROM peaceiris/hugo:v0.111.3-full
 
 ARG USER=bouncmpe
 
-ENV LC_ALL="en_US.UTF-8"
-ENV LC_CTYPE="en_US.UTF-8"
-
 RUN : \
     && apt-get update \
     && export DEBIAN_FRONTEND=noninteractive \
