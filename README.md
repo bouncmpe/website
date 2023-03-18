@@ -25,7 +25,7 @@ go into the live.
 To run the the commands above, you will need packages `git`, `ssh`, `golang`,
 and `hugo_extended` installed on your system. Ensure that you use a relatively
 recent version of `hugo_extended` such as `v0.111.3`. You can find
-[Hugo releases](https://github.com/gohugoio/hugo/tags) in their repository.
+[Hugo releases](https://github.com/gohugoio/hugo/releases) in their repository.
 
 Alternatively, you can use `docker` and `vscode` with remote containers
 extension to work inside our development container where all prerequisites are
