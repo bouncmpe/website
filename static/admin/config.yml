@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: bouncmpe/website-test
+  repo: bouncmpe/website
   branch: main
 
 # backend:
