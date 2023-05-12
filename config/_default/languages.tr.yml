@@ -17,13 +17,13 @@ params:
 menu:
   top:
     - name: Rehber
-      url: "https://bouncmpedocs.netlify.app"
+      url: https://docs.cmpe.boun.edu.tr
       weight: 10
     - name: Dersler
       url: courses
       weight: 20
-    - name: L-Araştırma
-      url: "https://bouncmpe-capstone.netlify.app"
+    - name: Bitirme Projeleri
+      url: https://seniorprojects.cmpe.boun.edu.tr
       weight: 30
     - name: Bağışlar
       url: donations

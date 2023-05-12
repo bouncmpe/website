@@ -17,13 +17,13 @@ params:
 menu:
   top:
     - name: Docs
-      url: "https://bouncmpedocs.netlify.app"
+      url: https://docs.cmpe.boun.edu.tr
       weight: 10
     - name: Courses
       url: courses
       weight: 20
-    - name: U-Research
-      url: "https://bouncmpe-capstone.netlify.app"
+    - name: Senior Projects
+      url: https://seniorprojects.cmpe.boun.edu.tr
       weight: 30
     - name: Donations
       url: donations
@@ -471,18 +471,22 @@ menu:
       identifier: footer-other
       weight: 1400
 
-    - name: News Archieve
+    - name: News Archive
       parent: footer-other
       url: news
       weight: 1401
-    - name: Event Archieve
+    - name: Event Archive
       parent: footer-other
       url: events
       weight: 1402
-    - name: Video Archieve
+    - name: Video Archive
       parent: footer-other
       url: videos
       weight: 1403
+    - name: Thesis Archive
+      parent: footer-other
+      url: videos
+      weight: 1404
     - name: Website Admin
       parent: footer-other
       url: /admin
