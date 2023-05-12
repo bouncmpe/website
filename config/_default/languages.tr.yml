@@ -255,15 +255,15 @@ menu:
       weight: 321
     - name: Ana Dersler
       parent: undergraduate-studies
-      url: undergraduate/courses/#core-courses
+      url: undergraduate/courses
       weight: 322
     - name: Seçmeli Dersler
       parent: undergraduate-studies
-      url: undergraduate/courses/#elective-courses
+      url: undergraduate/electives
       weight: 323
     - name: Yaz Stajı
       parent: undergraduate-studies
-      url: undergraduate/training
+      url: undergraduate/summer-training
       weight: 324
     - name: Bitirme Projeleri
       parent: undergraduate-studies
