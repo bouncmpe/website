@@ -55,9 +55,9 @@ menu:
       parent: department
       url: about/administration
       weight: 113
-    - name: Industry Advisory Board
+    - name: Advisory Board
       parent: department
-      url: about/industry-advisory-board
+      url: about/advisory-board
       weight: 119
 
     # About > History
