@@ -1,5 +1,7 @@
 {
-  "categories": ["former-faculty"],
+  "categories": ["former-faculty", "advisor"],
   "name": "Murat Zeren",
+  "tagline": "CIO",
+  "location": "Zorlu Holding",
   "type": "person"
 }
