@@ -411,16 +411,20 @@ menu:
 
     - name: Haber Arşivi
       parent: footer-other
-      url: news
+      url: /news
       weight: 1401
     - name: Etkinlik Arşivi
       parent: footer-other
-      url: events
+      url: /events
       weight: 1402
     - name: Video Arşivi
       parent: footer-other
-      url: videos
+      url: /videos
       weight: 1403
+    - name: Tez Arşivi
+      parent: footer-other
+      url: /theses
+      weight: 1404
     - name: Website Yönetim
       parent: footer-other
       url: /admin

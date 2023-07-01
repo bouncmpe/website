@@ -473,19 +473,19 @@ menu:
 
     - name: News Archive
       parent: footer-other
-      url: news
+      url: /news
       weight: 1401
     - name: Event Archive
       parent: footer-other
-      url: events
+      url: /events
       weight: 1402
     - name: Video Archive
       parent: footer-other
-      url: videos
+      url: /videos
       weight: 1403
     - name: Thesis Archive
       parent: footer-other
-      url: videos
+      url: /theses
       weight: 1404
     - name: Website Admin
       parent: footer-other
