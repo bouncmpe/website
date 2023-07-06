@@ -1,8 +1,9 @@
 module github.com/bouncmpe/website
 
-go 1.18
+go 1.20
 
 require (
-	github.com/bouncmpe/hugo-theme-department v0.12.0 // indirect
-	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20101.20300 // indirect
+	github.com/bouncmpe/hugo-theme-department v0.14.0 // indirect
+	github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000 // indirect
+	github.com/twbs/bootstrap v5.3.0+incompatible // indirect
 )
