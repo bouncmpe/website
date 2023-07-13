@@ -1,0 +1,24 @@
+{
+    "name": "Özdeniz Dolu",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/dolu-ozdeniz/image.jpg",
+    "interests": [
+        "Theory of computation",
+        "Computational Complexity Theory",
+        "Finite Automata",
+        "Interactive Proof Systems",
+        "Quantum Computation"
+    ],
+    "email": "ozdeniz.dolu@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/%C3%B6zdeniz.dolu"
+        }
+    ],
+    "office": "BM 26"
+}

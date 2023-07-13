@@ -1,5 +1,6 @@
 {
-  "categories": ["advisor"],
+  "categories": ["advisor", "former-teaching-assistant"],
+  "image": "image.png",
   "name": "Sema Oktuğ",
   "position": "full-professor",
   "location": "Istanbul Technical University",

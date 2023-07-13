@@ -1,0 +1,22 @@
+{
+    "name": "Ahmet Emre Aladağ",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/aladag-emre/image.png",
+    "interests": [
+        "Complex Networks",
+        "Complex Systems",
+        "Social Network Analysis"
+    ],
+    "lab": "Complex Systems Research Laboratory (SOSLAB)",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/ahmet-emre.alada%C4%9F"
+        }
+    ],
+    "office": "TETAM"
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Niaz Chalabianloo",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/chalabianloo-niaz/image.jpg",
+    "lab": "H2020 Affectech",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/niaz.chalabianloo"
+        }
+    ],
+    "office": "BM:46"
+}

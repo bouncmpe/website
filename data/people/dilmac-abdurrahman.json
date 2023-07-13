@@ -1,0 +1,25 @@
+{
+    "name": "Abdurrahman Dilmaç",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/dilmac-abdurrahman/image.jpg",
+    "interests": [
+        "Wifi",
+        "5G",
+        "Molecular Communications",
+        "Localization",
+        "Particle Detection & Tracking",
+        "computer networks"
+    ],
+    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "email": "abdurrahman.dilmac@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/abdurrahman.dilma%C3%A7"
+        }
+    ]
+}

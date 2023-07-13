@@ -1,0 +1,22 @@
+{
+    "name": "Emre Erdoğan",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/erdogan-emre/image.jpg",
+    "interests": [
+        "Automata Theory",
+        "Computational Complexity Theory",
+        "Quantum Computation"
+    ],
+    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/emre.erdo%C4%9Fan"
+        }
+    ],
+    "office": "BM 31"
+}

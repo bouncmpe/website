@@ -1,7 +1,7 @@
 {
-  "categories": ["instructor", "system-admin"],
+  "categories": ["instructor", "system-admin", "former-research-assistant"],
   "email": "murat.ozyurt@boun.edu.tr",
-  "image": "image.png",
+  "image_path": "people/ozyurt-murat/image.jpeg",
   "interests": [],
   "links": [
     {

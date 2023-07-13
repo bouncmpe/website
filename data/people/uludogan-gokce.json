@@ -1,7 +1,24 @@
 {
-  "categories": ["teaching-assistant"],
-  "email": "gokce.uludogan@boun.edu.tr",
-  "image": "image.png",
-  "name": "Gökçe Uludoğan",
-  "type": "person"
+    "name": "Gökçe Uludoğan",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/uludogan-gokce/image.jpg",
+    "interests": [
+        "Natural Language Processing",
+        "Deep Learning",
+        "Bioinformatics"
+    ],
+    "lab": "Artificial Intelligence Laboratory (AILAB), Text Analytics and BioInformatics Laboratory (TABILAB)",
+    "email": "gokce.uludogan@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/gokce.uludogan"
+        }
+    ],
+    "phone": "+90 212 359 7680",
+    "office": "BM 36"
 }

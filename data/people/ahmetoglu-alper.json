@@ -1,0 +1,23 @@
+{
+    "name": "Alper Ahmetoğlu",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/ahmetoglu-alper/image.jpg",
+    "interests": [
+        "artificial intelligence",
+        "machine learning",
+        "robotics"
+    ],
+    "lab": "Cognitive Learning and Robotics Lab (COLORS)",
+    "email": "alper.ahmetoglu@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/alper.ahmetoglu"
+        }
+    ],
+    "office": "BM-31, CoLoRs Lab."
+}

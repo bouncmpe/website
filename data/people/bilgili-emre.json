@@ -1,0 +1,18 @@
+{
+    "name": "Emre Bilgili",
+    "type": "person",
+    "categories": [
+        "former-research-assistant",
+        "teaching-assistant"
+    ],
+    "image": "image.png",
+    "lab": "Computer Architecture and Systems Laboratory (CASLAB)",
+    "email": "emre.bilgili@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/emre.bilgili"
+        }
+    ]
+}

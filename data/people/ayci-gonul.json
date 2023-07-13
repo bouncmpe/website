@@ -1,0 +1,23 @@
+{
+    "name": "Gönül Aycı",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/ayci-gonul/image.png",
+    "interests": [
+        "Artificial Intelligence",
+        "Multiagent systems",
+        "Trust and Privacy in Online Social Networks"
+    ],
+    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "email": "aycignl@gmail.com",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/g%C3%B6n%C3%BCl.ayc%C4%B1"
+        }
+    ],
+    "office": "BM 31"
+}

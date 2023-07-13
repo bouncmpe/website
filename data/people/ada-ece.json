@@ -1,0 +1,24 @@
+{
+    "name": "Suzan Ece Ada",
+    "type": "person",
+    "categories": [
+        "former-research-assistant",
+        "teaching-assistant"
+    ],
+    "image_path": "people/ada-ece/image.jpeg",
+    "interests": [
+        "Artificial intelligence",
+        "machine learning",
+        "robotics."
+    ],
+    "lab": "Cognitive Learning and Robotics Lab (COLORS)",
+    "email": "ece.ada@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/suzanece.ada"
+        }
+    ],
+    "office": "BM-31, CoLoRs Lab"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Alper Kamil Bozkurt",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/bozkurt-kamil/image.jpg",
+    "interests": [
+        "Bayesian statistics"
+    ],
+    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "email": "alper.bozkurt@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/alper-kamil.bozkurt"
+        }
+    ],
+    "office": "BM 27"
+}

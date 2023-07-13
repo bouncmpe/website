@@ -1,0 +1,16 @@
+{
+    "name": "M. Görkem Durmaz",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image": "image.png",
+    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/m.-g%C3%B6rkem.durmaz"
+        }
+    ]
+}

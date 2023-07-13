@@ -1,0 +1,26 @@
+{
+    "name": "Egemen İşgüder",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/isguder-egemen/image.jpg",
+    "interests": [
+        "Federated Learning",
+        "HCI",
+        "Human Activity Recognition",
+        "IoT",
+        "Human Behaviour Analysis"
+    ],
+    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "email": "egemen.isguder@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/tr/people/egemen.isguder"
+        }
+    ],
+    "phone": "+90 212 359 7125",
+    "office": "BM 46"
+}

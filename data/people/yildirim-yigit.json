@@ -1,7 +1,8 @@
 {
-  "categories": ["system-admin", "teaching-assistant"],
-  "email": "yigit.yildirim@boun.edu.tr",
-  "image": "image.png",
-  "name": "Yiğit Yıldırım",
-  "type": "person"
+    "name": "Yiğit Yıldırım",
+    "type": "person",
+    "categories": [
+        "former-teaching-assistant"
+    ],
+    "image_path": "people/yildirim-yigit/image.jpg"
 }

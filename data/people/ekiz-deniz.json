@@ -1,0 +1,24 @@
+{
+    "name": "Deniz Ekiz",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/ekiz-deniz/image.jpg",
+    "interests": [
+        "Wearable Computing",
+        "Pervasive Healthcare",
+        "Mobile Computing",
+        "Machine Learning"
+    ],
+    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "email": "deniz.ekiz@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/deniz.ekiz"
+        }
+    ],
+    "office": "BM 46"
+}
