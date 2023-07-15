@@ -1,3 +1,0 @@
----
-title: Industry Advisory Board
----

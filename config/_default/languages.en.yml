@@ -17,13 +17,13 @@ params:
 menu:
   top:
     - name: Docs
-      url: "https://bouncmpedocs.netlify.app"
+      url: https://docs.cmpe.boun.edu.tr
       weight: 10
     - name: Courses
       url: courses
       weight: 20
-    - name: U-Research
-      url: "https://bouncmpe-capstone.netlify.app"
+    - name: Senior Projects
+      url: https://seniorprojects.cmpe.boun.edu.tr
       weight: 30
     - name: Donations
       url: donations
@@ -55,9 +55,9 @@ menu:
       parent: department
       url: about/administration
       weight: 113
-    - name: Industry Advisory Board
+    - name: Advisory Board
       parent: department
-      url: about/industry-advisory-board
+      url: about/advisory-board
       weight: 119
 
     # About > History
@@ -255,11 +255,11 @@ menu:
       weight: 321
     - name: Core Courses
       parent: undergraduate-studies
-      url: undergraduate/courses/#core-courses
+      url: undergraduate/courses
       weight: 322
     - name: Elective Courses
       parent: undergraduate-studies
-      url: undergraduate/courses/#elective-courses
+      url: undergraduate/electives
       weight: 323
     - name: Summer Training
       parent: undergraduate-studies
@@ -305,6 +305,72 @@ menu:
       identifier: graduate
       url: graduate
       weight: 400
+
+    - name: PhD Program
+      parent: graduate
+      identifier: graduate-phd
+      url: graduate/phd-program
+      weight: 410
+    - name: Overview
+      parent: graduate-phd
+      identifier: graduate-phd-overview
+      url: graduate/phd-program#overview
+      weight: 411
+    - name: Admission
+      parent: graduate-phd
+      identifier: graduate-phd-structure
+      url: graduate/phd-program#admission
+      weight: 412
+    - name: Structure
+      parent: graduate-phd
+      identifier: graduate-phd-admission
+      url: graduate/phd-program#admission
+      weight: 413
+
+    - name: Master of Science Program
+      parent: graduate
+      identifier: graduate-ms
+      url: graduate/ms-program
+      weight: 420
+    - name: Overview
+      parent: graduate-ms
+      identifier: graduate-ms-overview
+      url: graduate/ms-program#overview
+      weight: 421
+    - name: Admission
+      parent: graduate-ms
+      url: graduate/ms-program#admission
+      weight: 422
+    - name: Structure
+      parent: graduate-ms
+      identifier: graduate-ms-admission
+      url: graduate/ms-program#structure
+      weight: 423
+
+    # SWE
+    - name: Software Engineering
+      parent: graduate
+      identifier: graduate-swe
+      url: https://swe.boun.edu.tr/en
+      weight: 430
+    - name: Overview
+      identifier: graduate-swe-overview
+      parent: graduate-swe
+      url: https://swe.boun.edu.tr/en
+      weight: 431
+    - name: Non-thesis Program
+      parent: graduate-swe
+      url: https://swe.boun.edu.tr/en/non-thesis-program
+      weight: 432
+    - name: Thesis Program
+      parent: graduate-swe
+      url: https://swe.boun.edu.tr/en/thesis-program
+      weight: 433
+
+    - name: Resources
+      parent: graduate
+      identifier: graduate-resources
+      weight: 440
 
     # Research
     - name: Research
@@ -405,18 +471,22 @@ menu:
       identifier: footer-other
       weight: 1400
 
-    - name: News Archieve
+    - name: News Archive
       parent: footer-other
-      url: news
+      url: /news
       weight: 1401
-    - name: Event Archieve
+    - name: Event Archive
       parent: footer-other
-      url: events
+      url: /events
       weight: 1402
-    - name: Video Archieve
+    - name: Video Archive
       parent: footer-other
-      url: videos
+      url: /videos
       weight: 1403
+    - name: Thesis Archive
+      parent: footer-other
+      url: /theses
+      weight: 1404
     - name: Website Admin
       parent: footer-other
       url: /admin

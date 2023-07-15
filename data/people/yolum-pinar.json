@@ -1,6 +1,7 @@
 {
-  "categories": ["former-faculty"],
+  "categories": ["former-faculty", "advisor"],
   "name": "Pınar Yolum",
   "position": "full-professor",
+  "location": "University of Utrecht",
   "type": "person"
 }
