@@ -37,7 +37,7 @@ title: İstatistikler
 
 {{< bootstrap-table table_class="table table-striped table-responsive table-hover">}}
 
-| Takviö Yılı | Mezun Sayısı |
+| Takvim Yılı | Mezun Sayısı |
 | ----------- | -----------: |
 | 2021        |           80 |
 | 2020        |           96 |
