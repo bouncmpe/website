@@ -22,7 +22,7 @@ title: İstatistikler
 
 {{< bootstrap-table table_class="table table-striped table-responsive table-hover">}}
 
-| Academik Yıl | Hazırlık dahil Toplam Öğrenci |
+| Akademik Yıl | Hazırlık dahil Toplam Öğrenci |
 | ------------ | ----------------------------: |
 | 2020 - 2021  |                           650 |
 | 2019 - 2020  |                           629 |
