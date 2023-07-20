@@ -17,13 +17,13 @@ params:
 menu:
   top:
     - name: Rehber
-      url: "https://bouncmpedocs.netlify.app"
+      url: https://docs.cmpe.boun.edu.tr
       weight: 10
     - name: Dersler
       url: courses
       weight: 20
-    - name: L-Araştırma
-      url: "https://bouncmpe-capstone.netlify.app"
+    - name: Bitirme Projeleri
+      url: https://seniorprojects.cmpe.boun.edu.tr
       weight: 30
     - name: Bağışlar
       url: donations
@@ -55,9 +55,9 @@ menu:
       parent: department
       url: about/administration
       weight: 113
-    - name: Endüstri Danışma Kurulu
+    - name: Danışma Kurulu
       parent: department
-      url: about/industry-advisory-board
+      url: about/advisory-board
       weight: 119
 
     # About > History
@@ -255,15 +255,15 @@ menu:
       weight: 321
     - name: Ana Dersler
       parent: undergraduate-studies
-      url: undergraduate/courses/#core-courses
+      url: undergraduate/courses
       weight: 322
     - name: Seçmeli Dersler
       parent: undergraduate-studies
-      url: undergraduate/courses/#elective-courses
+      url: undergraduate/electives
       weight: 323
     - name: Yaz Stajı
       parent: undergraduate-studies
-      url: undergraduate/training
+      url: undergraduate/summer-training
       weight: 324
     - name: Bitirme Projeleri
       parent: undergraduate-studies
@@ -411,16 +411,20 @@ menu:
 
     - name: Haber Arşivi
       parent: footer-other
-      url: news
+      url: /news
       weight: 1401
     - name: Etkinlik Arşivi
       parent: footer-other
-      url: events
+      url: /events
       weight: 1402
     - name: Video Arşivi
       parent: footer-other
-      url: videos
+      url: /videos
       weight: 1403
+    - name: Tez Arşivi
+      parent: footer-other
+      url: /theses
+      weight: 1404
     - name: Website Yönetim
       parent: footer-other
       url: /admin

@@ -1,3 +1,3 @@
 ---
-title: Academik Danışmanlar
+title: Akademik Danışmanlar
 ---
