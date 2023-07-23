@@ -6,9 +6,8 @@
     ],
     "image_path": "people/ozer-mehmet/image.png",
     "interests": [
-        "Machine Learning",
-        "Deep Learning",
-        "3D Computer Vision"
+        "cs.LG",
+        "cs.CV"
     ],
     "tags": {
         "affiliation": ["pilab"]

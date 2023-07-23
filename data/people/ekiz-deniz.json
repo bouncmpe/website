@@ -6,10 +6,8 @@
     ],
     "image_path": "people/ekiz-deniz/image.jpg",
     "interests": [
-        "Wearable Computing",
-        "Pervasive Healthcare",
-        "Mobile Computing",
-        "Machine Learning"
+        "cs.ET",
+        "cs.LG"
     ],
     "tags": {
         "affiliation": ["netlab"]

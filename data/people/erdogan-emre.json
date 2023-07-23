@@ -6,9 +6,9 @@
     ],
     "image_path": "people/erdogan-emre/image.jpg",
     "interests": [
-        "Automata Theory",
-        "Computational Complexity Theory",
-        "Quantum Computation"
+        "cs.FL",
+        "cs.CC",
+        "cs.ET"
     ],
     "tags": {
         "affiliation": ["ailab"]

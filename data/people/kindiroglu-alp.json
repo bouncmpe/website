@@ -7,10 +7,9 @@
     ],
     "image_path": "people/kindiroglu-alp/image.jpg",
     "interests": [
-        "Computer Vision",
-        "Machine Learning",
-        "Gesture Recognition",
-        "Human Computer Interaction"
+        "cs.CV",
+        "cs.LG",
+        "cs.HC"
     ],
     "tags": {
         "affiliation": ["pilab"]

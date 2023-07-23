@@ -6,10 +6,8 @@
     ],
     "image_path": "people/gezer-utkan/image.png",
     "interests": [
-        "Theory of Computation",
-        "Finite Automata",
-        "Complexity Theory",
-        "Error Reduction in IPS with Restricted Verifiers"
+        "cs.FL",
+        "cs.CC"
     ],
     "email": "utkan.gezer@boun.edu.tr",
     "links": [

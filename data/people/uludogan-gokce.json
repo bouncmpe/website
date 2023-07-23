@@ -6,9 +6,9 @@
     ],
     "image_path": "people/uludogan-gokce/image.jpg",
     "interests": [
-        "Natural Language Processing",
-        "Deep Learning",
-        "Bioinformatics"
+        "cs.CL",
+        "cs.LG",
+        "q-bio.QM"
     ],
     "tags": {
         "affiliation": ["ailab", "tabilab"]

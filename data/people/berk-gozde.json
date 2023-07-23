@@ -6,9 +6,8 @@
     ],
     "image_path": "people/berk-gozde/image.jpg",
     "interests": [
-        "Natural Language Processing",
-        "Multiword Expressions",
-        "Machine Learning"
+        "cs.CL",
+        "cs.LG"
     ],
     "tags": {
         "affiliation": ["ailab"]

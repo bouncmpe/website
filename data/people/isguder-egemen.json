@@ -6,11 +6,10 @@
     ],
     "image_path": "people/isguder-egemen/image.jpg",
     "interests": [
-        "Federated Learning",
-        "HCI",
-        "Human Activity Recognition",
-        "IoT",
-        "Human Behaviour Analysis"
+        "cs.LG",
+        "cs.HC",
+        "cs.CV",
+        "cs.ET"
     ],
     "tags": {
         "affiliation": ["netlab"]

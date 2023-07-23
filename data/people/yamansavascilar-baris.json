@@ -6,11 +6,9 @@
     ],
     "image_path": "people/yamansavascilar-baris/image.jpg",
     "interests": [
-        "Networking",
-        "SDN/NFV",
-        "Mobile Edge Computing",
-        "Cloud Systems",
-        "Machine Learning"
+        "cs.NI",
+        "cs.ET",
+        "cs.LG"
     ],
     "tags": {
         "affiliation": ["netlab"]

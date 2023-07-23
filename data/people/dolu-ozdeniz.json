@@ -6,11 +6,9 @@
     ],
     "image_path": "people/dolu-ozdeniz/image.jpg",
     "interests": [
-        "Theory of computation",
-        "Computational Complexity Theory",
-        "Finite Automata",
-        "Interactive Proof Systems",
-        "Quantum Computation"
+        "cs.CC",
+        "cs.FL",
+        "cs.ET"
     ],
     "email": "ozdeniz.dolu@boun.edu.tr",
     "links": [

@@ -8,8 +8,8 @@
     "image_path": "people/ada-ece/image.jpeg",
     "interests": [
         "cs.AI",
-        "machine learning",
-        "robotics."
+        "cs.LG",
+        "cs.RO"
     ],
     "tags": {
         "affiliation": ["colors"]

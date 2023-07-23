@@ -6,11 +6,8 @@
     ],
     "image_path": "people/yetimoglu-oguzhan/image.png",
     "interests": [
-        "Nanonetworking",
-        "localization",
-        "underwater signaling",
-        "mock circulatory network",
-        "computer networks"
+        "cs.ET",
+        "cs.NI"
     ],
     "tags": {
         "affiliation": ["netlab"]

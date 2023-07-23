@@ -6,11 +6,10 @@
     ],
     "image_path": "people/altintas-kutay/image.jpg",
     "interests": [
-        "Ontologies",
-        "Semantic Web",
-        "Opinion Dynamics",
-        "Agent-Based Models",
-        "Graph Theory"
+        "cs.SI",
+        "cs.AI",
+        "cs.MA",
+        "cs.DM"
     ],
     "email": "kutay.altintas@boun.edu.tr",
     "links": [

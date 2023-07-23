@@ -6,12 +6,8 @@
     ],
     "image_path": "people/dilmac-abdurrahman/image.jpg",
     "interests": [
-        "Wifi",
-        "5G",
-        "Molecular Communications",
-        "Localization",
-        "Particle Detection & Tracking",
-        "computer networks"
+        "cs.NI",
+        "cs.ET"
     ],
     "tags": {
         "affiliation": ["netlab"]
