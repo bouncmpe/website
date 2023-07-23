@@ -12,7 +12,9 @@
         "IoT",
         "Human Behaviour Analysis"
     ],
-    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "tags": {
+        "affiliation": ["netlab"]
+    },
     "email": "egemen.isguder@boun.edu.tr",
     "links": [
         {

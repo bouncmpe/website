@@ -5,7 +5,9 @@
         "research-assistant"
     ],
     "image_path": "people/siyli-doga/image.png",
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "dogasiyli@gmail.com",
     "links": [
         {

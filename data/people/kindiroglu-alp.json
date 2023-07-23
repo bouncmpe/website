@@ -12,7 +12,9 @@
         "Gesture Recognition",
         "Human Computer Interaction"
     ],
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "alp.kindiroglu@boun.edu.tr",
     "links": [
         {

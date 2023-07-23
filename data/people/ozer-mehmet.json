@@ -10,7 +10,9 @@
         "Deep Learning",
         "3D Computer Vision"
     ],
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "mehmet.ozer1@boun.edu.tr",
     "links": [
         {

@@ -10,7 +10,9 @@
         "Complex Systems",
         "Social Network Analysis"
     ],
-    "lab": "Complex Systems Research Laboratory (SOSLAB)",
+    "tags": {
+        "affiliation": ["soslab"]
+    },
     "links": [
         {
             "icon": "home",

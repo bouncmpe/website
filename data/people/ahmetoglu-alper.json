@@ -6,11 +6,13 @@
     ],
     "image_path": "people/ahmetoglu-alper/image.jpg",
     "interests": [
-        "artificial intelligence",
+        "cs.AI",
         "machine learning",
         "robotics"
     ],
-    "lab": "Cognitive Learning and Robotics Lab (COLORS)",
+    "tags": {
+        "affiliation": ["colors"]
+    },
     "email": "alper.ahmetoglu@boun.edu.tr",
     "links": [
         {

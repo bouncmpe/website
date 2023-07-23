@@ -13,7 +13,9 @@
         "Particle Detection & Tracking",
         "computer networks"
     ],
-    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "tags": {
+        "affiliation": ["netlab"]
+    },
     "email": "abdurrahman.dilmac@boun.edu.tr",
     "links": [
         {

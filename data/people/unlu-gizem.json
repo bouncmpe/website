@@ -5,7 +5,9 @@
         "research-assistant"
     ],
     "image": "image.png",
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "links": [
         {
             "icon": "home",

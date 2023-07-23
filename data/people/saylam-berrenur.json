@@ -6,7 +6,9 @@
         "former-research-assistant"
     ],
     "image": "image.png",
-    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "tags": {
+        "affiliation": ["netlab"]
+    },
     "email": "berrenur.saylam@boun.edu.tr",
     "links": [
         {

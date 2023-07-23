@@ -8,7 +8,9 @@
     "interests": [
         "Bayesian statistics"
     ],
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "alper.bozkurt@boun.edu.tr",
     "links": [
         {

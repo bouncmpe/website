@@ -9,7 +9,9 @@
         "Matrix / Tensor Factorization",
         "Machine Learning / Bayesian Statistics"
     ],
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "burak.kurutmaz@boun.edu.tr",
     "links": [
         {

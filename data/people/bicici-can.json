@@ -5,7 +5,9 @@
         "research-assistant"
     ],
     "image_path": "people/bicici-can/image.png",
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "ufukcbicici@yahoo.com",
     "links": [
         {

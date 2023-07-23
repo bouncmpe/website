@@ -10,7 +10,9 @@
         "Deep Learning",
         "Bioinformatics"
     ],
-    "lab": "Artificial Intelligence Laboratory (AILAB), Text Analytics and BioInformatics Laboratory (TABILAB)",
+    "tags": {
+        "affiliation": ["ailab", "tabilab"]
+    },
     "email": "gokce.uludogan@boun.edu.tr",
     "links": [
         {

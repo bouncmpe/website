@@ -10,7 +10,9 @@
         "Computational Complexity Theory",
         "Quantum Computation"
     ],
-    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "tags": {
+        "affiliation": ["ailab"]
+    },
     "links": [
         {
             "icon": "home",

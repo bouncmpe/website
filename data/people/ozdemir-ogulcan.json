@@ -5,7 +5,9 @@
         "research-assistant"
     ],
     "image_path": "people/ozdemir-ogulcan/image.jpg",
-    "lab": "Perceptual Intelligence Laboratory (PILAB)",
+    "tags": {
+        "affiliation": ["pilab"]
+    },
     "email": "ogulcan.ozdemir@boun.edu.tr",
     "links": [
         {

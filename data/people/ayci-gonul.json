@@ -6,11 +6,13 @@
     ],
     "image_path": "people/ayci-gonul/image.png",
     "interests": [
-        "Artificial Intelligence",
+        "cs.AI",
         "Multiagent systems",
         "Trust and Privacy in Online Social Networks"
     ],
-    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "tags": {
+        "affiliation": ["ailab"]
+    },
     "email": "aycignl@gmail.com",
     "links": [
         {

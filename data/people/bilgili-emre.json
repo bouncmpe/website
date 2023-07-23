@@ -6,7 +6,9 @@
         "teaching-assistant"
     ],
     "image": "image.png",
-    "lab": "Computer Architecture and Systems Laboratory (CASLAB)",
+    "tags": {
+        "affiliation": ["caslab"]
+    },
     "email": "emre.bilgili@boun.edu.tr",
     "links": [
         {

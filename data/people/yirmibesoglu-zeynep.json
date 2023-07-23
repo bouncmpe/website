@@ -9,9 +9,11 @@
         "Natural Language Processing",
         "Machine Learning",
         "Deep Learning",
-        "Artificial Intelligence"
+        "cs.AI"
     ],
-    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "tags": {
+        "affiliation": ["ailab"]
+    },
     "email": "zeynep.yirmibesoglu@boun.edu.tr",
     "links": [
         {

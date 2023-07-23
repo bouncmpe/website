@@ -10,7 +10,9 @@
         "Multiword Expressions",
         "Machine Learning"
     ],
-    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "tags": {
+        "affiliation": ["ailab"]
+    },
     "email": "gozde.berk@boun.edu.tr",
     "links": [
         {

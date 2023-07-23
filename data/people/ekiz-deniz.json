@@ -11,7 +11,9 @@
         "Mobile Computing",
         "Machine Learning"
     ],
-    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "tags": {
+        "affiliation": ["netlab"]
+    },
     "email": "deniz.ekiz@boun.edu.tr",
     "links": [
         {

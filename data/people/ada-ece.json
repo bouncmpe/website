@@ -7,11 +7,13 @@
     ],
     "image_path": "people/ada-ece/image.jpeg",
     "interests": [
-        "Artificial intelligence",
+        "cs.AI",
         "machine learning",
         "robotics."
     ],
-    "lab": "Cognitive Learning and Robotics Lab (COLORS)",
+    "tags": {
+        "affiliation": ["colors"]
+    },
     "email": "ece.ada@boun.edu.tr",
     "links": [
         {

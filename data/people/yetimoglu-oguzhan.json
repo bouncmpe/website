@@ -12,7 +12,9 @@
         "mock circulatory network",
         "computer networks"
     ],
-    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "tags": {
+        "affiliation": ["netlab"]
+    },
     "email": "oguzhan.yetimoglu@boun.edu.tr",
     "links": [
         {

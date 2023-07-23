@@ -12,7 +12,9 @@
         "Cloud Systems",
         "Machine Learning"
     ],
-    "lab": "Computer Networks Research Laboratory (NetLab)",
+    "tags": {
+        "affiliation": ["netlab"]
+    },
     "email": "baris.yamansavascilar@boun.edu.tr",
     "links": [
         {

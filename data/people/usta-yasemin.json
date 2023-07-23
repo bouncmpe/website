@@ -8,7 +8,9 @@
     "interests": [
         "Robotics"
     ],
-    "lab": "Artificial Intelligence Laboratory (AILAB)",
+    "tags": {
+        "affiliation": ["ailab"]
+    },
     "links": [
         {
             "icon": "home",
