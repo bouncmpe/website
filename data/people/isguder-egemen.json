@@ -11,9 +11,7 @@
         "cs.CV",
         "cs.ET"
     ],
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "email": "egemen.isguder@boun.edu.tr",
     "links": [
         {

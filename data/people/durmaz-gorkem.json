@@ -5,9 +5,7 @@
         "research-assistant"
     ],
     "image": "image.png",
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "links": [
         {
             "icon": "home",

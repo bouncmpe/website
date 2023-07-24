@@ -5,9 +5,7 @@
         "research-assistant"
     ],
     "image_path": "people/chalabianloo-niaz/image.jpg",
-    "tags": {
-        "affiliation": ["H2020 Affectech"]
-    },
+    "tags": ["H2020 Affectech"],
     "links": [
         {
             "icon": "home",

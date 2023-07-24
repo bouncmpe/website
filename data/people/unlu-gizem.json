@@ -5,9 +5,7 @@
         "research-assistant"
     ],
     "image": "image.png",
-    "tags": {
-        "affiliation": ["pilab"]
-    },
+    "tags": ["pilab"],
     "links": [
         {
             "icon": "home",

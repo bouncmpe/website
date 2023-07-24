@@ -10,9 +10,7 @@
         "cs.LG",
         "q-bio.QM"
     ],
-    "tags": {
-        "affiliation": ["ailab", "tabilab"]
-    },
+    "tags": ["ailab", "tabilab"],
     "email": "gokce.uludogan@boun.edu.tr",
     "links": [
         {

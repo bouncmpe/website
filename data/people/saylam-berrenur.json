@@ -6,9 +6,7 @@
         "former-research-assistant"
     ],
     "image": "image.png",
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "email": "berrenur.saylam@boun.edu.tr",
     "links": [
         {

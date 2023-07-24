@@ -5,9 +5,7 @@
         "research-assistant"
     ],
     "image_path": "people/ozdemir-ogulcan/image.jpg",
-    "tags": {
-        "affiliation": ["pilab"]
-    },
+    "tags": ["pilab"],
     "email": "ogulcan.ozdemir@boun.edu.tr",
     "links": [
         {

@@ -10,9 +10,7 @@
         "cs.CC",
         "cs.ET"
     ],
-    "tags": {
-        "affiliation": ["ailab"]
-    },
+    "tags": ["ailab"],
     "links": [
         {
             "icon": "home",

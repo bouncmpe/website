@@ -5,9 +5,7 @@
         "research-assistant"
     ],
     "image_path": "people/siyli-doga/image.png",
-    "tags": {
-        "affiliation": ["pilab"]
-    },
+    "tags": ["pilab"],
     "email": "dogasiyli@gmail.com",
     "links": [
         {

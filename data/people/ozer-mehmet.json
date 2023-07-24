@@ -9,9 +9,7 @@
         "cs.LG",
         "cs.CV"
     ],
-    "tags": {
-        "affiliation": ["pilab"]
-    },
+    "tags": ["pilab"],
     "email": "mehmet.ozer1@boun.edu.tr",
     "links": [
         {

@@ -9,9 +9,7 @@
         "cs.LG",
         "stat.TH"
     ],
-    "tags": {
-        "affiliation": ["pilab"]
-    },
+    "tags": ["pilab"],
     "email": "burak.kurutmaz@boun.edu.tr",
     "links": [
         {

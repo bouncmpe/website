@@ -8,9 +8,7 @@
     "interests": [
         "stat.TH"
     ],
-    "tags": {
-        "affiliation": ["pilab"]
-    },
+    "tags": ["pilab"],
     "email": "alper.bozkurt@boun.edu.tr",
     "links": [
         {

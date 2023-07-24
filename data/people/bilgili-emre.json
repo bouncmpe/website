@@ -6,9 +6,7 @@
         "teaching-assistant"
     ],
     "image": "image.png",
-    "tags": {
-        "affiliation": ["caslab"]
-    },
+    "tags": ["caslab"],
     "email": "emre.bilgili@boun.edu.tr",
     "links": [
         {

@@ -8,9 +8,7 @@
     "interests": [
         "cs.RO"
     ],
-    "tags": {
-        "affiliation": ["ailab"]
-    },
+    "tags": ["ailab"],
     "links": [
         {
             "icon": "home",

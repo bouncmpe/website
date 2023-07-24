@@ -10,9 +10,7 @@
         "cs.ET",
         "cs.LG"
     ],
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "email": "baris.yamansavascilar@boun.edu.tr",
     "links": [
         {

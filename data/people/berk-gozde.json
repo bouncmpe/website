@@ -9,9 +9,7 @@
         "cs.CL",
         "cs.LG"
     ],
-    "tags": {
-        "affiliation": ["ailab"]
-    },
+    "tags": ["ailab"],
     "email": "gozde.berk@boun.edu.tr",
     "links": [
         {

@@ -9,9 +9,7 @@
         "cs.ET",
         "cs.LG"
     ],
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "email": "deniz.ekiz@boun.edu.tr",
     "links": [
         {

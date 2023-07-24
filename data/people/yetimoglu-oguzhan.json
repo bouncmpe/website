@@ -9,9 +9,7 @@
         "cs.ET",
         "cs.NI"
     ],
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "email": "oguzhan.yetimoglu@boun.edu.tr",
     "links": [
         {

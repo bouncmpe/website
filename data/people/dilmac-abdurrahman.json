@@ -9,9 +9,7 @@
         "cs.NI",
         "cs.ET"
     ],
-    "tags": {
-        "affiliation": ["netlab"]
-    },
+    "tags": ["netlab"],
     "email": "abdurrahman.dilmac@boun.edu.tr",
     "links": [
         {

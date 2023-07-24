@@ -8,9 +8,7 @@
     "interests": [
         "cs.SI"
     ],
-    "tags": {
-        "affiliation": ["soslab"]
-    },
+    "tags": ["soslab"],
     "links": [
         {
             "icon": "home",
