@@ -1,0 +1,18 @@
+{
+    "name": "Recep Doğa Siyli",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/siyli-doga/image.png",
+    "tags": ["pilab"],
+    "email": "dogasiyli@gmail.com",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/recep-do%C4%9Fa.siyli"
+        }
+    ],
+    "office": "BM 27"
+}

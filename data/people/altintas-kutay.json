@@ -1,0 +1,23 @@
+{
+    "name": "Kutay Altıntaş",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/altintas-kutay/image.jpg",
+    "interests": [
+        "cs.SI",
+        "cs.AI",
+        "cs.MA",
+        "cs.DM"
+    ],
+    "email": "kutay.altintas@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/kutay.alt%C4%B1nta%C5%9F"
+        }
+    ],
+    "office": "BM 36"
+}

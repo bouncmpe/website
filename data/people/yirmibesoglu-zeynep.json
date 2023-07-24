@@ -1,0 +1,24 @@
+{
+    "name": "Zeynep Yirmibeşoğlu",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/yirmibesoglu-zeynep/image.png",
+    "interests": [
+        "cs.CL",
+        "cs.LG",
+        "cs.AI"
+    ],
+    "tags": ["ailab"],
+    "email": "zeynep.yirmibesoglu@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/zeynep.yirmibesoglu"
+        }
+    ],
+    "phone": "+90 212 359 76 80",
+    "office": "BM 36"
+}

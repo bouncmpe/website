@@ -1,0 +1,21 @@
+{
+    "name": "Abdurrahman Dilmaç",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/dilmac-abdurrahman/image.jpg",
+    "interests": [
+        "cs.NI",
+        "cs.ET"
+    ],
+    "tags": ["netlab"],
+    "email": "abdurrahman.dilmac@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/abdurrahman.dilma%C3%A7"
+        }
+    ]
+}

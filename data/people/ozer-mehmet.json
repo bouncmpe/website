@@ -1,0 +1,22 @@
+{
+    "name": "Mehmet Özer",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/ozer-mehmet/image.png",
+    "interests": [
+        "cs.LG",
+        "cs.CV"
+    ],
+    "tags": ["pilab"],
+    "email": "mehmet.ozer1@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/mehmet.%C3%B6zer"
+        }
+    ],
+    "office": "BM 27"
+}

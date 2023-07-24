@@ -1,0 +1,20 @@
+{
+    "name": "Berrenur Saylam",
+    "type": "person",
+    "categories": [
+        "research-assistant",
+        "former-research-assistant"
+    ],
+    "image": "image.png",
+    "tags": ["netlab"],
+    "email": "berrenur.saylam@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/berrenur.saylam"
+        }
+    ],
+    "phone": "+90 212 359 7125",
+    "office": "BM 46"
+}

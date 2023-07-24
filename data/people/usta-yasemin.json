@@ -1,0 +1,20 @@
+{
+    "name": "Kadriye Yasemin Usta",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/usta-yasemin/image.jpg",
+    "interests": [
+        "cs.RO"
+    ],
+    "tags": ["ailab"],
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/kadriye-yasemin.usta"
+        }
+    ],
+    "office": "BM 37"
+}

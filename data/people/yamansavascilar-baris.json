@@ -1,0 +1,23 @@
+{
+    "name": "Barış Yamansavaşçılar",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/yamansavascilar-baris/image.jpg",
+    "interests": [
+        "cs.NI",
+        "cs.ET",
+        "cs.LG"
+    ],
+    "tags": ["netlab"],
+    "email": "baris.yamansavascilar@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/bar%C4%B1%C5%9F.yamansava%C5%9F%C3%A7%C4%B1lar"
+        }
+    ],
+    "office": "BM 47"
+}

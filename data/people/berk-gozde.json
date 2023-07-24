@@ -1,0 +1,22 @@
+{
+    "name": "Gözde Berk",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/berk-gozde/image.jpg",
+    "interests": [
+        "cs.CL",
+        "cs.LG"
+    ],
+    "tags": ["ailab"],
+    "email": "gozde.berk@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/gozde.berk"
+        }
+    ],
+    "office": "BM 31"
+}

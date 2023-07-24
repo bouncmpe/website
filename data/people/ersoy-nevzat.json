@@ -1,0 +1,21 @@
+{
+    "name": "Nevzat Ersoy",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/ersoy-nevzat/image.png",
+    "interests": [
+        "cs.FL",
+        "cs.ET"
+    ],
+    "email": "nevzat.ersoy@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/nevzat.ersoy"
+        }
+    ],
+    "office": "BM 26"
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Oğuzhan Yetimoğlu",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/yetimoglu-oguzhan/image.png",
+    "interests": [
+        "cs.ET",
+        "cs.NI"
+    ],
+    "tags": ["netlab"],
+    "email": "oguzhan.yetimoglu@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/o%C4%9Fuzhan.yetimo%C4%9Flu"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Büşra Oğuzoğlu",
+    "type": "person",
+    "categories": [
+        "former-research-assistant",
+        "teaching-assistant"
+    ],
+    "image_path": "people/oguzoglu-busra/image.jpeg",
+    "interests": [
+        "cs.LG",
+        "cs.CL",
+        "q-bio.QM"
+    ],
+    "email": "busra.oguzoglu@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/busra.oguzoglu"
+        }
+    ]
+}

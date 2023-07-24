@@ -1,0 +1,25 @@
+{
+    "name": "Ahmet Alp Kındıroğlu",
+    "type": "person",
+    "categories": [
+        "research-assistant",
+        "former-teaching-assistant"
+    ],
+    "image_path": "people/kindiroglu-alp/image.jpg",
+    "interests": [
+        "cs.CV",
+        "cs.LG",
+        "cs.HC"
+    ],
+    "tags": ["pilab"],
+    "email": "alp.kindiroglu@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/ahmet-alp.k%C4%B1nd%C4%B1ro%C4%9Flu"
+        }
+    ],
+    "phone": "+90 212 359 7183",
+    "office": "BM 27"
+}

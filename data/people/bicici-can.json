@@ -1,0 +1,18 @@
+{
+    "name": "Ufuk Can Biçici",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/bicici-can/image.png",
+    "tags": ["pilab"],
+    "email": "ufukcbicici@yahoo.com",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/ufuk-can.bi%C3%A7ici"
+        }
+    ],
+    "phone": "+90 212 359 7183"
+}

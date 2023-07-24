@@ -1,7 +1,22 @@
 {
-  "categories": ["teaching-assistant"],
-  "email": "utkan.gezer@boun.edu.tr",
-  "image": "image.png",
-  "name": "Mehmet Utkan Gezer",
-  "type": "person"
+    "name": "Mehmet Utkan Gezer",
+    "type": "person",
+    "categories": [
+        "teaching-assistant"
+    ],
+    "image_path": "people/gezer-utkan/image.png",
+    "interests": [
+        "cs.FL",
+        "cs.CC"
+    ],
+    "email": "utkan.gezer@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/mehmet-utkan.gezer"
+        }
+    ],
+    "phone": "+90 212 359 7095",
+    "office": "BM 31"
 }

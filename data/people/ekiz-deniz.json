@@ -1,0 +1,22 @@
+{
+    "name": "Deniz Ekiz",
+    "type": "person",
+    "categories": [
+        "research-assistant"
+    ],
+    "image_path": "people/ekiz-deniz/image.jpg",
+    "interests": [
+        "cs.ET",
+        "cs.LG"
+    ],
+    "tags": ["netlab"],
+    "email": "deniz.ekiz@boun.edu.tr",
+    "links": [
+        {
+            "icon": "home",
+            "identifier": "home",
+            "url": "https://www.cmpe.boun.edu.tr/people/deniz.ekiz"
+        }
+    ],
+    "office": "BM 46"
+}
