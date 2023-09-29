@@ -1,7 +1,7 @@
 {
   "id": "ie310",
   "type": "course",
-  "credits": "3",
+  "credits": "4",
   "ects": "5",
   "hours": "3+0+2",
   "categories": ["engineering"],
@@ -15,5 +15,5 @@
       "description": ""
     }
   },
-  "prerequisites": ["cmpe201"]
+  "prerequisites": ["math201"]
 }
