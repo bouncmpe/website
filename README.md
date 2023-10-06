@@ -4,8 +4,8 @@ Thıs ıs the content repository for the department website of Computer
 Engineering at Boğaziçi University.
 
 Currently the latest version of the website is served at
-[https://bouncmpe.github.io/website/](https://bouncmpe.github.io/website/) for testing
-purposes.
+[https://bouncmpe.github.io/website/](https://bouncmpe.github.io/website/) for
+testing purposes.
 
 ## Run the website locally
 
@@ -24,8 +24,8 @@ go into the live.
 
 To run the the commands above, you will need packages `git`, `ssh`, `golang`,
 and `hugo_extended` installed on your system. Ensure that you use a relatively
-recent version of `hugo_extended` such as `v0.101.0`. You can find
-[Hugo releases](https://github.com/gohugoio/hugo/tags) in their repository.
+recent version of `hugo_extended` such as `v0.111.3`. You can find
+[Hugo releases](https://github.com/gohugoio/hugo/releases) in their repository.
 
 Alternatively, you can use `docker` and `vscode` with remote containers
 extension to work inside our development container where all prerequisites are
